@@ -17,6 +17,7 @@ import sec_eight_pc from '../assets/images/section_eight_pc.png'
 import sec_eight_mobile from '../assets/images/section_eight_mobile.png'
 import btn_1 from '../assets/images/btn_01.png'
 import btn_2 from '../assets/images/btn_02.png'
+import m_btn from '../assets/images/m_btn.png'
 
 function Home() {
   return (
@@ -26,10 +27,10 @@ function Home() {
         <img src={sec_one_pc} className="pc_screen" alt="" />
         <img src={sec_one_mobile} className="mobile_screen" alt="" />
         <div class="btnArea01 pc_screen">
-          <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801">
+          <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
             <img src={btn_1} alt="" />
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch">
+          <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
             <img src={btn_2} alt="" />
           </a>
         </div>
@@ -83,10 +84,10 @@ function Home() {
         <img src={sec_eight_pc} className="pc_screen" alt="" />
         <img src={sec_eight_mobile} className="mobile_screen" alt="" />
         <div class="btnArea01 pc_screen">
-          <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801">
+          <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
             <img src={btn_1} alt="" />
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch">
+          <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
             <img src={btn_2} alt="" />
           </a>
         </div>
@@ -103,7 +104,7 @@ function Home() {
         <ul>
           <li><a href="#!">이용약관</a></li>
           <li><a href="#!">개인정보처리방침</a></li>
-          <li><a href="#!">청소년보호정책</a></li><span class="mob"></span>
+          <li><a href="#!">청소년보호정책</a></li><span class="mobile_screen"></span>
           <li><a href="#!">사업자정보확인</a></li>
           <li><a href="#!">불법촬영물등 신고</a></li>
         </ul>
@@ -111,8 +112,10 @@ function Home() {
       </footer>
       {/* footer */}
 
-      <div class="quick_box mob">
-        {/* <img src={} alt="" /> */}
+      <div class="quick_box mobile_screen">
+        <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch">
+          <img src={m_btn} alt="" />
+        </a>
       </div>
     </div>
   )
