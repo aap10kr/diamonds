@@ -1,96 +1,142 @@
 import React from 'react'
-import sec_one_pc from '../assets/images/section_one_pc.png'
-import sec_one_mobile from '../assets/images/section_one_mobile.png'
-import sec_two_pc from '../assets/images/section_two_pc.png'
-import sec_two_mobile from '../assets/images/section_two_mobile.png'
-import sec_three_pc from '../assets/images/section_three_pc.png'
-import sec_three_mobile from '../assets/images/section_three_mobile.png'
-import sec_four_pc from '../assets/images/section_four_pc.png'
-import sec_four_mobile from '../assets/images/section_four_mobile.png'
-import sec_five_pc from '../assets/images/section_five_pc.png'
-import sec_five_mobile from '../assets/images/section_five_mobile.png'
-import sec_six_pc from '../assets/images/section_six_pc.png'
-import sec_six_mobile from '../assets/images/section_six_mobile.png'
-import sec_seven_pc from '../assets/images/section_seven_pc.png'
-import sec_seven_mobile from '../assets/images/section_seven_mobile.png'
-import sec_eight_pc from '../assets/images/section_eight_pc.png'
-import sec_eight_mobile from '../assets/images/section_eight_mobile.png'
 import btn_1 from '../assets/images/btn_01.png'
 import btn_2 from '../assets/images/btn_02.png'
 import m_btn from '../assets/images/m_btn.png'
+import sec2_cimg1 from '../assets/images/sec_2_card_img1.png'
 
 function Home() {
   return (
     <div>
       {/* section1 start */}
-      <div className="section_one">
-        <img src={sec_one_pc} className="pc_screen" alt="" />
-        <img src={sec_one_mobile} className="mobile_screen" alt="" />
-        <div class="btnArea01 pc_screen">
-          <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
-            <img src={btn_1} alt="" />
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
-            <img src={btn_2} alt="" />
-          </a>
+      <div className="section_one pc_screen">
+        <div className="container">
+          <div className='nav'>
+            <p className='logoText'>다이아매치</p>
+          </div>
+          <div className='sec_1_left'>
+            <div>
+              <h1 className='sec_1_title'>상위1%의</h1>
+              <h1 className='sec_1_subtitle'>
+                검증된만남
+                <br />
+                다이아매치
+              </h1>
+              <p className='sec_1_desc'>
+                국내 최다 전문직 협회
+                <br />
+                정식 제휴 소개팅 어플
+              </p>
+              <div class="btnArea01">
+                <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
+                  <img src={btn_1} alt="" />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
+                  <img src={btn_2} alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div className="mobile_section_one mobile_screen">
+        <div className="container">
+          <div className='nav'>
+            <p className='logoText'>다이아매치</p>
+          </div>
+          <div className='sec_1_left'>
+            <div>
+              <h1 className='sec_1_title'>상위1%의</h1>
+              <h1 className='sec_1_subtitle'>
+                검증된만남
+                <br />
+                다이아매치
+              </h1>
+              <p className='sec_1_desc'>
+                국내 최다 전문직 협회
+                <br />
+                정식 제휴 소개팅 어플
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* section1 end */}
 
       {/* section2 start */}
       <div className="section_two">
-        <img src={sec_two_pc} className="pc_screen" alt="" />
-        <img src={sec_two_mobile} className="mobile_screen" alt="" />
+        <div className="container">
+          <h1 className='title1 text_violet'>
+            패기와 능력을 갖춘 <br />
+            <span className='fw-bold'>전문직 단체와 정식 제휴</span>
+          </h1>
+          <p className='para1 text-center mt-2 mt-md-3 mb-5'>특별한 분에게 특별한 만남을</p>
+          <div className="row g-4 m-0">
+            <div className="col-md-4">
+              <div className='text-center shadow rounded-3 py-5 d-flex g-5'>
+                <img src={sec2_cimg1} className="sec2_card_img" alt="" />
+                <p className='para2 mt-4 mb-0'>
+                  2022년 4월 <br />
+                  <span className='fw-bold'>대한공중보건의사협의회 제휴</span>
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className='text-center shadow rounded-3 py-5 d-flex'>
+                <img src={sec2_cimg1} className="sec2_card_img" alt="" />
+                <p className='para2 mt-4 mb-0'>
+                  2022년 4월 <br />
+                  <span className='fw-bold'>대한공중보건의사협의회 제휴</span>
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className='text-center shadow rounded-3 py-5 d-flex'>
+                <img src={sec2_cimg1} className="sec2_card_img" alt="" />
+                <p className='para2 mt-4 mb-0'>
+                  2022년 4월 <br />
+                  <span className='fw-bold'>대한공중보건의사협의회 제휴</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       {/* section2 end */}
 
       {/* section3 start */}
       <div className="section_three">
-        <img src={sec_three_pc} className="pc_screen" alt="" />
-        <img src={sec_three_mobile} className="mobile_screen" alt="" />
+
       </div>
       {/* section3 end */}
 
       {/* section4 start */}
       <div className="section_four">
-        <img src={sec_four_pc} className="pc_screen" alt="" />
-        <img src={sec_four_mobile} className="mobile_screen" alt="" />
+
       </div>
       {/* section4 end */}
 
       {/* section5 start */}
       <div className="section_five">
-        <img src={sec_five_pc} className="pc_screen" alt="" />
-        <img src={sec_five_mobile} className="mobile_screen" alt="" />
+
       </div>
       {/* section5 end */}
 
       {/* section6 start */}
       <div className="section_six">
-        <img src={sec_six_pc} className="pc_screen" alt="" />
-        <img src={sec_six_mobile} className="mobile_screen" alt="" />
+
       </div>
       {/* section6 end */}
 
       {/* section7 start */}
       <div className="section_seven">
-        <img src={sec_seven_pc} className="pc_screen" alt="" />
-        <img src={sec_seven_mobile} className="mobile_screen" alt="" />
+
       </div>
       {/* section7 end */}
 
       {/* section8 start */}
       <div className="section_eight">
-        <img src={sec_eight_pc} className="pc_screen" alt="" />
-        <img src={sec_eight_mobile} className="mobile_screen" alt="" />
-        <div class="btnArea01 pc_screen">
-          <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
-            <img src={btn_1} alt="" />
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
-            <img src={btn_2} alt="" />
-          </a>
-        </div>
+
       </div>
       {/* section8 end */}
 
@@ -112,11 +158,11 @@ function Home() {
       </footer>
       {/* footer */}
 
-      <div class="quick_box mobile_screen">
+      {/* <div class="quick_box mobile_screen">
         <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
           <img src={m_btn} alt="" />
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }
