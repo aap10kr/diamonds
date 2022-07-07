@@ -1,7 +1,6 @@
 import React from 'react'
 import btn_1 from '../assets/images/btn_01.png'
 import btn_2 from '../assets/images/btn_02.png'
-import m_btn from '../assets/images/m_btn.png'
 import sec1_img from '../assets/images/section1Img.png'
 import sec2_cimg1 from '../assets/images/sec_2_card_img1.png'
 import sec2_cimg2 from '../assets/images/sec_2_card_img2.png'
@@ -442,8 +441,9 @@ function Home() {
               </div>
             </div>
             <div className="sec8_child sec8_child2">
-              <img src={sec8_ringImg} className="sec8_ringImg" alt="" />
+              
               <div className='sec8_innerDiv'>
+              <img src={sec8_ringImg} className="sec8_ringImg" alt="" />
                 <p className='sec8_desc'>
                   다이아처럼 매력적인 당신이기에, 불확실한 누군가를 <br />
                   만나는 것은 더욱 쉽지 않은 일이라는 것 잘 알고 있습니다. <br /> <br />
@@ -489,11 +489,11 @@ function Home() {
       </footer>
       {/* footer */}
 
-      {/* <div class="quick_box mobile_screen">
-        <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
-          <img src={m_btn} alt="" />
+      <div class="quick_box mobile_screen">
+        <a className='mobile_bottom_link' href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
+          다이아매치 다운로드
         </a>
-      </div> */}
+      </div>
     </div>
   )
 }

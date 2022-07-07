@@ -387,10 +387,23 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    background-color: #3C217A;
+    padding: 20px;
+    text-align: center;
 }
 
 .quick_box img {
     width: 100%;
+}
+.mobile_bottom_link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+}
+
+.mobile_bottom_link:hover{
+    color: #fff;
 }
 
 footer {
