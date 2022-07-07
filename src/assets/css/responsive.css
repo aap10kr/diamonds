@@ -1,5 +1,153 @@
   /* responsive start */
+  @media only screen and (max-width: 991px) {
+      .spaceY {
+          padding: 40px 0px;
+      }
+
+      .sec3_main {
+          grid-template-columns: 1fr;
+      }
+
+      .sec3_card {
+          padding: 30px 20px;
+      }
+
+      .sec3_main>div:nth-of-type(1) {
+          order: 2;
+      }
+
+      .sec3_main>div:nth-of-type(2) {
+          order: 1;
+      }
+
+      .sec3_card:nth-of-type(2) {
+          position: static;
+          left: 0px;
+      }
+
+      .sec3_cimg {
+          width: 88px;
+          height: 100px;
+      }
+
+      /* section4 start */
+      .sec4_main {
+          grid-template-columns: 1fr;
+      }
+
+      .sec4_card:nth-of-type(2) {
+          position: static;
+          right: 0px;
+      }
+
+      .sec4_card {
+          padding: 30px 20px;
+      }
+
+      .sec4_cimg {
+          width: 88px;
+          height: 100px;
+      }
+
+      .sec4_child1 {
+          justify-content: center;
+      }
+
+      /* section4 end */
+
+      /* section5 start */
+      .sec_5_grid {
+          grid-template-columns: 1fr;
+      }
+
+      .sec_5_grid_child:nth-of-type(2) {
+          order: 1;
+      }
+
+      .sec_5_grid_child:nth-of-type(1) {
+          order: 2;
+      }
+
+      .sec5_left_card_footer_text {
+          font-size: 10px;
+      }
+
+      .sec5_child {
+          padding: 15px;
+      }
+
+      /* section5 end */
+
+      /* section6 start */
+      .sec6_main {
+          grid-template-columns: 1fr;
+      }
+
+      .sec6_logo_main {
+          justify-content: center;
+      }
+
+      .sec6_title {
+          font-size: 20px;
+      }
+
+      .sec6_child1 {
+          justify-content: center;
+      }
+
+      /* section6 end */
+
+      /* section7 start */
+      .sec7_main {
+          grid-template-columns: 1fr;
+      }
+
+      .sec7_child {
+          text-align: center;
+      }
+
+      .sec7_leftImg {
+          width: 60%;
+      }
+
+      .sec7_child1 {
+          order: 2;
+      }
+
+      .sec7_child2 {
+          order: 1;
+      }
+
+      .sec7_title {
+          font-size: 28px;
+      }
+
+      /* section7 end */
+
+      /* section8 start */
+      .sec8_child1 {
+          justify-content: center;
+      }
+
+      .sec8_main {
+          grid-template-columns: 1fr;
+      }
+
+      .sec8_ringImg {
+          position: absolute;
+          right: 15px;
+          top: -67px;
+          width: 70px;
+      }
+
+      /* section8 end */
+
+  }
+
   @media only screen and (max-width: 768px) {
+      .btnArea02 {
+          display: none;
+      }
 
       .pc_screen {
           display: none;
@@ -14,9 +162,18 @@
           font-size: 28px;
       }
 
-      .para2 {
-          font-size: 16px;
+      .title2 {
+          font-size: 17px;
       }
+
+      .para1 {
+          font-size: 15px;
+      }
+
+      .para2 {
+          font-size: 15px;
+      }
+
 
       /* section1 start */
 
@@ -27,6 +184,15 @@
       .sec_1_left {
           text-align: center;
           display: block;
+          height: auto;
+          padding-bottom: 30px;
+      }
+
+      .sec1_img {
+          width: 70%;
+          position: relative;
+          top: -17px;
+          left: 8vw;
       }
 
       .sec_1_title {
@@ -53,16 +219,53 @@
           grid-template-columns: 1fr;
       }
 
-      .sec_2_card>div{
+      .sec_2_card>div {
           display: flex;
           gap: 20px;
       }
 
       .sec_2_card {
-          margin: 0 auto;
+          text-align: start;
       }
 
       /* section2 end */
+
+      /* section3 start */
+      .sec3_card {
+          gap: 20px;
+      }
+
+      /* section3 end */
+
+      /* section5 start */
+      .sec5_child2 {
+          background-size: contain;
+      }
+
+      /* section5 end */
+      .sec5_card_logo_con {
+          top: 50%;
+          transform: translateY(-50%);
+      }
+
   }
+
+
+  @media only screen and (max-width: 400px) {
+      .sec3_card {
+          gap: 15px;
+      }
+  }
+
+  @media only screen and (max-width: 350px) {
+      .para2 {
+          font-size: 12px;
+      }
+
+      .sec5_left_card_footer_text {
+          font-size: 8px;
+      }
+  }
+
 
   /* responsive end */
