@@ -71,9 +71,10 @@ function Home() {
             <span className='fw-bold'>전문직 단체와 정식 제휴</span>
           </h1>
           <p className='para1 text-center mt-2 mt-md-3 mb-5'>특별한 분에게 특별한 만남을</p>
-          <div className="row g-4 m-0">
-            <div className="col-md-4">
-              <div className='text-center shadow rounded-3 py-5 d-flex g-5'>
+          <div className="sec_2_card_main">
+
+            <div className="sec_2_card shadow">
+              <div>
                 <img src={sec2_cimg1} className="sec2_card_img" alt="" />
                 <p className='para2 mt-4 mb-0'>
                   2022년 4월 <br />
@@ -81,8 +82,8 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className='text-center shadow rounded-3 py-5 d-flex'>
+            <div className="sec_2_card shadow">
+              <div>
                 <img src={sec2_cimg1} className="sec2_card_img" alt="" />
                 <p className='para2 mt-4 mb-0'>
                   2022년 4월 <br />
@@ -90,8 +91,8 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className='text-center shadow rounded-3 py-5 d-flex'>
+            <div className="sec_2_card shadow">
+              <div>
                 <img src={sec2_cimg1} className="sec2_card_img" alt="" />
                 <p className='para2 mt-4 mb-0'>
                   2022년 4월 <br />
@@ -99,6 +100,7 @@ function Home() {
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </div>

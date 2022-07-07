@@ -61,8 +61,26 @@
 
 
 /* section_2 start */
-.section_two{
+.section_two {
     padding: 100px 0px;
+}
+
+.sec_2_card_main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.sec_2_card {
+    text-align: center;
+    padding: 40px 20px 30px;
+    border-radius: 20px;
+}
+
+.sec2_card_img{
+    width: 162px;
+    height: 162px;
+    object-fit: contain;
 }
 /* section_2 end */
 

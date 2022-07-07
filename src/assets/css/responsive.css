@@ -15,7 +15,7 @@
       }
 
       .para2 {
-        font-size: 16px;
+          font-size: 16px;
       }
 
       /* section1 start */
@@ -47,6 +47,19 @@
       .sec2_card_img {
           width: 80px;
           height: 80px;
+      }
+
+      .sec_2_card_main {
+          grid-template-columns: 1fr;
+      }
+
+      .sec_2_card>div{
+          display: flex;
+          gap: 20px;
+      }
+
+      .sec_2_card {
+          margin: 0 auto;
       }
 
       /* section2 end */
