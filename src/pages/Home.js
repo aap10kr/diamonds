@@ -13,6 +13,10 @@ import sec4_cimg2 from '../assets/images/sec_4_card_img2.png'
 import sec4_cimg3 from '../assets/images/sec_4_card_img3.png'
 import sec6_logo1 from '../assets/images/sec6_logo1.png'
 import sec6_logo2 from '../assets/images/sec6_logo2.png'
+import sec6_logo3 from '../assets/images/sec6_logo3.png'
+import sec6_logo4 from '../assets/images/sec6_logo4.png'
+import sec6_logo5 from '../assets/images/sec6_logo5.png'
+import sec6_logo6 from '../assets/images/sec6_logo6.png'
 import sec7_leftImg from '../assets/images/sec7_left_img.png'
 import sec8_ringImg from '../assets/images/sec8_ring.png'
 
@@ -326,7 +330,25 @@ function Home() {
             <div className='sec6_child'>
               <div className='sec6_right_logo_card'>
                 <div className='sec5_card_logo_con'>
-                  <img src={sec6_logo1} alt="" />
+                  <img src={sec6_logo3} alt="" />
+                </div>
+                <p className='para1 mb-0'>
+                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
+                  (2022. 05. 17)
+                </p>
+              </div>
+              <div className='sec6_right_logo_card'>
+                <div className='sec5_card_logo_con'>
+                  <img src={sec6_logo4} alt="" />
+                </div>
+                <p className='para1 mb-0'>
+                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
+                  (2022. 05. 17)
+                </p>
+              </div>
+              <div className='sec6_right_logo_card'>
+                <div className='sec5_card_logo_con'>
+                  <img src={sec6_logo2} alt="" />
                 </div>
                 <p className='para1 mb-0'>
                   다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
@@ -344,7 +366,7 @@ function Home() {
               </div>
               <div className='sec6_right_logo_card'>
                 <div className='sec5_card_logo_con'>
-                  <img src={sec6_logo1} alt="" />
+                  <img src={sec6_logo5} alt="" />
                 </div>
                 <p className='para1 mb-0'>
                   다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
@@ -353,7 +375,7 @@ function Home() {
               </div>
               <div className='sec6_right_logo_card'>
                 <div className='sec5_card_logo_con'>
-                  <img src={sec6_logo1} alt="" />
+                  <img src={sec6_logo6} alt="" />
                 </div>
                 <p className='para1 mb-0'>
                   다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
@@ -362,25 +384,7 @@ function Home() {
               </div>
               <div className='sec6_right_logo_card'>
                 <div className='sec5_card_logo_con'>
-                  <img src={sec6_logo1} alt="" />
-                </div>
-                <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
-                </p>
-              </div>
-              <div className='sec6_right_logo_card'>
-                <div className='sec5_card_logo_con'>
-                  <img src={sec6_logo1} alt="" />
-                </div>
-                <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
-                </p>
-              </div>
-              <div className='sec6_right_logo_card'>
-                <div className='sec5_card_logo_con'>
-                  <img src={sec6_logo1} alt="" />
+                  <img src={sec6_logo2} alt="" />
                 </div>
                 <p className='para1 mb-0'>
                   다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />

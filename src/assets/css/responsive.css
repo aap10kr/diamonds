@@ -94,6 +94,13 @@
       .sec6_child1 {
           justify-content: center;
       }
+      .sec6_right_logo_card{
+        margin: 20px auto;
+      }
+
+      .sec6_child{
+        margin-left: 50px;
+      }
 
       /* section6 end */
 
