@@ -327,7 +327,7 @@ function Home() {
               </div>
             </div>
 
-            <div className='sec6_child'>
+            <div className='sec6_child sec6_child2'>
               <div className='sec6_right_logo_card'>
                 <div className='sec5_card_logo_con'>
                   <img src={sec6_logo3} alt="" />
