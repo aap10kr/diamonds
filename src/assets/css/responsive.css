@@ -211,9 +211,10 @@
     }
 
     .sec8_ringImg{
-        top: 200px;
-        left: -275px;
-        width: 300px;
+        position: absolute;
+        left: -370px;
+        top: 290px;
+        width: 400px;
     }
 
     .sec8_innerDiv{
