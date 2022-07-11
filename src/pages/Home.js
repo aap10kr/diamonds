@@ -1,6 +1,7 @@
 import React from 'react'
 import btn_1 from '../assets/images/btn_01.png'
 import btn_2 from '../assets/images/btn_02.png'
+import logo_img from '../assets/images/logo.png'
 import sec1_img from '../assets/images/section1Img.png'
 import sec2_cimg1 from '../assets/images/sec_2_card_img1.png'
 import sec2_cimg2 from '../assets/images/sec_2_card_img2.png'
@@ -27,7 +28,7 @@ function Home() {
       <div className="section_one pc_screen">
         <div className="container">
           <div className='nav'>
-            <p className='logoText'>다이아매치</p>
+            <img src={logo_img} className="logo_img" alt="" />
           </div>
 
           <div className='sec1_main'>
@@ -54,7 +55,6 @@ function Home() {
                 </div>
               </div>
             </div>
-
             <div>
               <img src={sec1_img} className="sec1_img" alt="" />
             </div>
@@ -65,7 +65,7 @@ function Home() {
       <div className="mobile_section_one mobile_screen">
         <div className="container">
           <div className='nav'>
-            <p className='logoText'>다이아매치</p>
+          <img src={logo_img} className="logo_img" alt="" />
           </div>
           <div className='sec_1_left'>
             <div>
@@ -98,9 +98,8 @@ function Home() {
           </h1>
           <p className='para1 text-center mt-2 mt-md-3 mb-5'>특별한 분에게 특별한 만남을</p>
           <div className="sec_2_card_main">
-
-            <div className="sec_2_card box_shadow cursor_point">
-              <div>
+            <div className="sec_2_card cursor_point">
+              <div className='sec_2_card_inner'>
                 <img src={sec2_cimg1} className="sec2_card_img" alt="" />
                 <p className='para2 mt-4 mb-0'>
                   2022년 4월 <br />
@@ -108,21 +107,21 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="sec_2_card box_shadow cursor_point">
-              <div>
+            <div className="sec_2_card cursor_point">
+              <div className='sec_2_card_inner'>
                 <img src={sec2_cimg2} className="sec2_card_img" alt="" />
                 <p className='para2 mt-4 mb-0'>
-                  2022년 4월 <br />
-                  <span className='fw-bold'>대한공중보건의사협의회 제휴</span>
+                  2021년 3월 <br />
+                  <span className='fw-bold'>대한공중보건치과의사협회 제휴</span>
                 </p>
               </div>
             </div>
-            <div className="sec_2_card box_shadow cursor_point">
-              <div>
+            <div className="sec_2_card cursor_point">
+              <div className='sec_2_card_inner'>
                 <img src={sec2_cimg3} className="sec2_card_img" alt="" />
                 <p className='para2 mt-4 mb-0'>
-                  2022년 4월 <br />
-                  <span className='fw-bold'>대한공중보건의사협의회 제휴</span>
+                  2020년 3월~21년 2월 <br />
+                  <span className='fw-bold'>대한공중보건한의사협의회 제휴</span>
                 </p>
               </div>
             </div>
@@ -137,8 +136,8 @@ function Home() {
         <div className="container">
           <div className="sec3_main">
 
-            <div>
-              <div className="sec3_card box_shadow cursor_point">
+            <div className='sec3_card_group'>
+              <div className="sec3_card cursor_point">
                 <img src={sec3_cimg1} className="sec3_cimg" alt="" />
                 <div>
                   <p className='title2 mb-2 mb-md-3'>통신사를 통한 본인인증</p>
@@ -148,7 +147,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="sec3_card box_shadow cursor_point mt-4">
+              <div className="sec3_card cursor_point mt-4">
                 <img src={sec3_cimg2} className="sec3_cimg" alt="" />
                 <div>
                   <p className='title2 mb-2 mb-md-3'>학력, 직장, 직업 인증 시스템</p>
@@ -158,7 +157,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="sec3_card box_shadow cursor_point mt-4">
+              <div className="sec3_card cursor_point mt-4">
                 <img src={sec3_cimg3} className="sec3_cimg" alt="" />
                 <div>
                   <p className='title2 mb-2 mb-md-3'>아는 사람 만나지 않기</p>
@@ -175,7 +174,7 @@ function Home() {
                 <h1 className='title1 text_violet text-center text-lg-start'>
                   지인 소개보다 <br />
                   <span className='fw-bold'>믿을 수 있는</span><br className='pc_screen' />
-                  <span className='fw-bold'>소개팅 어플</span>
+                  <span className='fw-bold'>소개팅 <span className='title1'>어플</span></span>
                 </h1>
                 <p className='para2 text-center text-lg-start'>
                   결혼 정보 회사보다는 편하고 <br />
@@ -208,8 +207,8 @@ function Home() {
               </div>
             </div>
 
-            <div>
-              <div className="sec4_card box_shadow cursor_point">
+            <div className='sec4_group'>
+              <div className="sec4_card cursor_point">
                 <img src={sec4_cimg1} className="sec4_cimg" alt="" />
                 <div>
                   <p className='title2 mb-2 mb-md-3'>클린한 서비스 운영</p>
@@ -220,7 +219,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="sec4_card box_shadow cursor_point mt-4">
+              <div className="sec4_card cursor_point mt-4">
                 <img src={sec4_cimg2} className="sec4_cimg" alt="" />
                 <div>
                   <p className='title2 mb-2 mb-md-3'>24시간 커플매니저 상담소 운영</p>
@@ -230,7 +229,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="sec4_card box_shadow cursor_point mt-4">
+              <div className="sec4_card cursor_point mt-4">
                 <img src={sec4_cimg3} className="sec4_cimg" alt="" />
                 <div>
                   <p className='title2 mb-2 mb-md-3'>상위 1%의 매력적인 이성 소개</p>
@@ -254,7 +253,7 @@ function Home() {
           <div className="sec_5_grid">
             <div className='sec_5_grid_child'>
               <div className="sec5_main">
-                <div className='sec5_child sec5_child1  box_shadow'>
+                <div className='sec5_child sec5_child1 '>
                   {/* card1 */}
                   <p className='sec5_card2_title invisible'>여성만 인증 가능</p>
                   <h2 className='title2'>빛나는 능력</h2>
@@ -270,7 +269,7 @@ function Home() {
                     1가지 인증하기
                   </p>
                 </div>
-                <div className='sec5_child sec5_child2 box_shadow'>
+                <div className='sec5_child sec5_child2'>
                   {/* card 2 */}
                   <p className='sec5_card2_title'>여성만 인증 가능</p>
                   <h2 className='title2'>빛나는 외모</h2>
@@ -320,7 +319,7 @@ function Home() {
                     메이저 언론사도 <br />
                     주목하는 다이아매치
                   </h1>
-                  <p className='para1'>
+                  <p className='para11'>
                     다이아매치의 특별함을 증명해주는 언론사 보도
                   </p>
                 </div>
@@ -342,8 +341,8 @@ function Home() {
                   <img src={sec6_logo4} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
+                  '다이아매치' 대한공중보건 치과의사협회와 제휴 협약 <br />
+                  (2021. 07. 08)
                 </p>
               </div>
               <div className='sec6_right_logo_card'>
@@ -351,8 +350,8 @@ function Home() {
                   <img src={sec6_logo2} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
+                  누구나 가입 불가.......소개팅앱도 양극화 시대<br />
+                  (2021. 02. 27)
                 </p>
               </div>
               <div className='sec6_right_logo_card'>
@@ -360,8 +359,8 @@ function Home() {
                   <img src={sec6_logo1} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
+                  남성은 1억5000만원 슈퍼카나 상남3구, 여성은?<br />
+                  (2021. 01. 25)
                 </p>
               </div>
               <div className='sec6_right_logo_card'>
@@ -369,8 +368,8 @@ function Home() {
                   <img src={sec6_logo5} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
+                  [신(新)인류 연애 리포트]'연애도 랜선으로' <br />
+                  (2020. 06. 02)
                 </p>
               </div>
               <div className='sec6_right_logo_card'>
@@ -378,8 +377,8 @@ function Home() {
                   <img src={sec6_logo6} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
+                  다이아매치, 대한공중보건한의사협의회와 정식 제휴 <br />
+                  (2019. 11. 26)
                 </p>
               </div>
               <div className='sec6_right_logo_card'>
@@ -387,8 +386,8 @@ function Home() {
                   <img src={sec6_logo2} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  다이아매치, 대한공중보건의사협의회와 정식 제휴 체결 <br />
-                  (2022. 05. 17)
+                  콘버스-2017대한민국 디지털 브랜드대상 '대상'수상 <br />
+                  (2017. 07. 19)
                 </p>
               </div>
             </div>
@@ -398,7 +397,7 @@ function Home() {
       {/* section6 end */}
 
       {/* section7 start */}
-      <div className="section_seven spaceY">
+      <div className="section_seven pc_screen spaceY">
         <div className="container">
           <div className="sec7_main">
             <div className="sec7_child sec7_child1">
@@ -408,12 +407,35 @@ function Home() {
               <div className='text-white'>
                 <h1 className='sec6_title'>오늘 하루 어땠어?</h1>
                 <h1 className='sec7_title'>
-                  오직 <span className='fw-bold'>다이아매치</span> 회원들만 <br />
+                  오직 <span className='fw-bold'>다이아매치 회원</span>들만<br />
                   이용 가능한 특별한 <br />
                   <span className='fw-bold'>프라이빗 소통 공간</span>
                 </h1>
                 <p className='para1 mt-2 mt-md-3'>
-                  다이아매치의 특별함을 증명해주는 언론사 보도
+                  인연과 설레임과 자유로운 수다가 공존하는 라운지
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mobile_section_seven mobile_screen spaceY">
+        <div className="container">
+          <div className="sec7_main">
+            <div className="sec7_child sec7_child1">
+              <img src={sec7_leftImg} className="sec7_leftImg" alt="" />
+            </div>
+            <div className="sec7_child sec7_child2">
+              <div className='text-white'>
+                <h1 className='sec6_title'>오늘 하루 어땠어?</h1>
+                <h1 className='sec7_title'>
+                  오직 <span className='fw-bold'>다이아매치 회원</span>들만<br />
+                  이용 가능한 특별한 <br />
+                  <span className='fw-bold'>프라이빗 소통 공간</span>
+                </h1>
+                <p className='para1 mt-2 mt-md-3'>
+                  인연과 설레임과 자유로운 수다가 공존하는 라운지
                 </p>
               </div>
             </div>
@@ -427,12 +449,12 @@ function Home() {
         <div className="container">
           <div className="sec8_main">
             <div className="sec8_child sec8_child1">
-              <div>
+              <div className='sec-8-text'>
                 <h1 className='sec_1_title'>상위1%의</h1>
                 <h1 className='sec_1_subtitle'>
-                  당신이기에,
-                  <br />
                   다이아매치
+                  <br />
+                  당신이기에,
                 </h1>
                 <div class="btnArea02">
                   <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">

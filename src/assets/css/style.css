@@ -10,7 +10,7 @@
 .section_one {
     position: relative;
     background-image: url(/src/assets/images/section_one_pc_bg.png);
-    min-height: 650px;
+    min-height: 700px;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -25,9 +25,22 @@
     background-size: cover;
 }
 
+.section_one .container{
+    max-width: 1000px;
+}
+
 .nav {
     height: 100px;
 }
+
+.nav .logo_img{
+    position: relative;
+    width: 350px;
+    height: 80px;
+    top: 10px;
+    left: -100px;
+}
+
 
 .logoText {
     color: #3C217A;
@@ -43,26 +56,35 @@
 }
 
 .sec_1_title {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 300;
+    letter-spacing: 3px;
     color: var(--main-color);
 }
 
 .sec_1_subtitle {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 600;
+    line-height: 70px;
     color: var(--main-color);
 }
 
 .sec_1_desc {
-    color: #3C217A;
-    font-weight: 400;
-    font-size: 26px;
+    color: #532daa;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -1px;
 }
 
+.btnArea01{
+    margin-top: 30px;
+}
 
 .btnArea01 img {
     margin-right: 15px;
+    height: 45px;
+    width: 150px;
 }
 
 .sec1_main{
@@ -71,9 +93,9 @@
 }
 
 .sec1_img{
-    width: 100%;
+    width: 600px;
     position: relative;
-    top: -50px;
+    top: -30px;
 }
 
 /* section_1 end */
@@ -81,32 +103,65 @@
 
 /* section_2 start */
 
+.section_two .container{
+    max-width: 1000px;
+}
+
+.section_two .container .title1{
+    font-size: 42px;
+    line-height: 58px;
+}
+
+.section_two .container .para1{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
 .sec_2_card_main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 15px;
+    justify-content: space-around;
 }
 
 .sec_2_card {
     text-align: center;
-    padding: 40px 20px 30px;
+    padding: 10px 0px;
     border-radius: 20px;
     transition: all 0.3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.sec_2_card .para2{
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 20px;
+}
+
+.sec_2_card .fw-bold{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
 .sec_2_card:hover {
-    box-shadow: 0px 0px 24px -3px grey;
+    box-shadow: 0px 0px 10px -3px grey;
 }
 
 .sec2_card_img {
-    width: 162px;
-    height: 162px;
+    width: 130px;
+    height: 150px;
     object-fit: contain;
 }
 
 /* section_2 end */
 
 /* section_3 start */
+
+.section_three .container{
+    max-width: 1000px;
+}
 
 .sec3_main {
     display: grid;
@@ -117,14 +172,14 @@
 .sec3_card {
     display: flex;
     align-items: center;
-    gap: 30px;
     padding: 40px 20px 40px;
     border-radius: 20px;
     transition: all 0.3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .sec3_card:hover {
-    box-shadow: 0px 0px 24px -3px grey;
+    box-shadow: 0px 0px 10px -3px grey;
 }
 
 .sec3_card:nth-of-type(2) {
@@ -139,14 +194,18 @@
 }
 
 .sec3_cimg {
-    width: 116px;
-    height: 134px;
+    width: 90px;
+    height: 104px;
     object-fit: contain;
 }
 
 /* section_3 end */
 
 /* section_4 start */
+.section_four .container{
+    max-width: 1000px;
+}
+
 .sec4_main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -156,14 +215,15 @@
 .sec4_card {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     padding: 40px 20px 40px;
     border-radius: 20px;
     transition: all 0.3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .sec4_card:hover {
-    box-shadow: 0px 0px 24px -3px grey;
+    box-shadow: 0px 0px 10px -3px grey;
 }
 
 .sec4_card:nth-of-type(2) {
@@ -178,14 +238,18 @@
 }
 
 .sec4_cimg {
-    width: 116px;
-    height: 134px;
+    width: 90px;
+    height: 104px;
     object-fit: contain;
 }
 
 /* section_4 end */
 
 /* section_5 start */
+.section_five .container{
+    max-width: 1000px;
+}
+
 .sec_5_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -203,17 +267,18 @@
 }
 
 .sec5_child1 {
-    padding: 20px;
+    padding: 10px 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .sec5_child {
     cursor: pointer;
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 15px;
 }
 
 .sec5_child:hover {
-    box-shadow: 0px 0px 24px -3px grey;
+    box-shadow: 0px 0px 10px -3px grey;
 }
 
 .sec5_card2_title {
@@ -228,11 +293,17 @@
     background-image: url(../images/sec5_right_card_bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 15px;
 }
 
 /* section_5 end */
 
 /* section6 start */
+.section_six .container{
+    max-width: 1000px;
+}
+
 .sec6_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -240,23 +311,24 @@
 }
 
 .sec6_title {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
+    letter-spacing: -1px;
 }
 
 .sec5_logo_con {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: grid;
     place-items: center;
-    box-shadow: 0px 0px 13px -5px grey;
+    box-shadow: 0px 0px 10px -5px grey;
     border-radius: 50%;
     background: #fff;
 }
 
 .sec5_logo_con img {
-    width: 43px;
-    height: 43px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
 }
 
@@ -268,8 +340,8 @@
 }
 
 .sec6_right_logo_card {
-    box-shadow: 0px 0px 13px -5px grey;
-    border-radius: 20px;
+    box-shadow: 0px 0px 10px -5px grey;
+    border-radius: 15px;
     padding: 10px 20px;
     position: relative;
     margin-top: 20px;
@@ -282,7 +354,7 @@
     height: 60px;
     display: grid;
     place-items: center;
-    box-shadow: 0px 0px 13px -5px grey;
+    box-shadow: 0px 0px 10px -5px grey;
     border-radius: 50%;
     position: absolute;
     left: -50px;
@@ -306,10 +378,22 @@
 /* section7 start */
 .section_seven {
     background-image: url(../images/sec_7_bg.png);
-    min-height: 650px;
+    min-height: 768px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.mobile_section_seven{
+    position: relative;
+    background-image: url(../images/sec_7_m.png);
+    min-height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.section_seven .container{
+    max-width: 1000px;
 }
 
 .sec7_main {
@@ -337,6 +421,10 @@
     background-color: #DFDDFD;
 }
 
+.section_eight .container{
+    max-width: 1000px;
+}
+
 .sec8_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -344,7 +432,7 @@
 }
 
 .btnArea02 {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .btnArea02 img {
@@ -374,11 +462,11 @@
     position: relative;
 }
 
-.sec8_ringImg {
+.sec8_innerDiv .sec8_ringImg {
     position: absolute;
-    left: -130px;
-    bottom: -53px;
-    width: 150px;
+    left: -370px;
+    top: 290px;
+    width: 400px;
 }
 
 /* section8 end */
@@ -435,4 +523,10 @@ footer ul li a {
 
 footer ul li a:hover {
     color: rgba(255, 255, 255, 0.5);
+}
+
+.quick_box{
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }

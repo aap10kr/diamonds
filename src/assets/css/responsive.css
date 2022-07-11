@@ -1,4 +1,238 @@
   /* responsive start */
+  @media only screen and (min-width: 768px) {   
+      /* sec2 */
+
+      .section_two .container .para1{
+          padding-bottom: 15px;
+        }
+        
+        .sec_2_card_main {
+            width: 850px;
+            margin-left: 50px;
+        }
+
+        /* sec3 */
+
+        .section_three{
+            margin-left: 50px;
+        }
+
+        .sec3_card{
+            width: 450px;
+        }
+
+        .sec3_card .title2{
+            font-size: 20px;
+            letter-spacing: -1px;
+        }
+
+        .sec3_card .para2{
+            font-size: 18px;
+            letter-spacing: -1px;
+            font-weight: 300;
+            line-height: 25px;
+        }
+
+        .sec3_cimg {
+            margin-right: 10px;
+        }
+
+        .sec3_child2 .title1{
+            font-size: 45px;
+            line-height: 60px;
+        }
+        .sec3_child2 .para2{
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: -1px;
+            margin-top: 20px;
+        }
+
+        /* sec4 */
+
+        .section_four{
+            margin-left: 50px;
+        }
+
+        .sec4_child1 .title1{
+            font-size: 45px;
+            line-height: 60px;
+            letter-spacing: -2px;
+        }
+
+        .sec4_child1 .para2{
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: -1px;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+
+        .sec4_group{
+            margin-right: 20px;
+        }
+        
+        .sec4_card{
+            width: 450px;
+        }
+
+        .sec4_card .title2{
+            font-size: 20px;
+            letter-spacing: -1px;
+        }
+
+        .sec4_card .para2{
+            font-size: 18px;
+            letter-spacing: -1px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+
+        /* sec5 */
+
+        .section_five{
+            margin-left: 200px;
+        }
+
+        .sec5_main .sec5_child{
+            height: 470px;
+        }
+
+        .sec5_main .sec5_child .sec5_card2_title{
+            color: white;
+        }
+
+        .sec5_main .sec5_child .title2{
+            font-size: 20px
+        }
+
+        .sec5_main .sec5_child .para2{
+            font-size: 18px
+        }
+
+        .sec5_main .sec5_child .sec5_left_card_footer_text{
+            font-size: 15px;
+            letter-spacing: -1px;
+        }
+
+        .sec_5_grid_child{
+            display: flex;
+            align-items: center;
+            text-align: start;
+        }
+
+        .sec_5_grid_child .title1{
+            font-size: 45px;
+
+        }
+
+        .sec_5_grid_child .para2{
+            font-size: 15px;
+            letter-spacing: -1px;
+            font-weight: 400;
+            margin-top: 15px;
+
+        }
+
+     /* sec6 */
+
+    .sec6_child .title1{
+        font-size: 45px;
+    }
+
+    .sec6_child .para11{
+        font-size: 15px;
+        letter-spacing: -1px;
+        margin-top: 23px;
+        font-weight: 400;
+    }
+
+    .sec6_child .para1{
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -1px;
+        width: 400px;
+
+    }
+
+    .sec6_child .sec5_card_logo_con{
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .sec6_child .sec5_card_logo_con img{
+        width: 35px;
+        height: 35px;  
+    }
+
+
+    /* sec7 */
+
+    .sec7_main .sec7_child img{
+        width: 300px;
+        margin-left: 70px;
+    }
+
+    .sec7_child .sec6_title{
+        font-size: 30px;
+    }
+
+    .sec7_child .sec7_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .sec7_child .para1{
+        font-size: 15px;
+    }
+
+     /* sec8 */
+
+    .sec8_child .sec-8-text{
+        line-height: 10px;
+    }
+
+    .sec8_child .sec_1_title{
+        line-height: 70px;
+    }
+
+    .sec8_main .sec_1_subtitle{
+        top: -1000px;
+    }
+    
+    .btnArea02{
+        top: -100px;
+        width: 500px;
+    }
+
+    .btnArea02 img{
+        width: 150px;
+    }
+
+    .sec8_ringImg{
+        top: 200px;
+        left: -275px;
+        width: 300px;
+    }
+
+    .sec8_innerDiv{
+        width: 420px;
+        height: 500px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .sec8_innerDiv .sec8_desc{
+        font-size: 15px;
+        padding: 10px 0px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -1px;
+    }
+
+  }
+
+
   @media only screen and (max-width: 991px) {
       .spaceY {
           padding: 40px 0px;
@@ -6,10 +240,11 @@
 
       .sec3_main {
           grid-template-columns: 1fr;
+          padding-bottom: 30px;
       }
 
       .sec3_card {
-          padding: 30px 20px;
+          padding: 25px 20px;
       }
 
       .sec3_main>div:nth-of-type(1) {
@@ -25,14 +260,41 @@
           left: 0px;
       }
 
+      .sec3_card .title2{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+
+      .sec3_card .para2{
+        font-size: 13px;
+        letter-spacing: -1px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+
       .sec3_cimg {
-          width: 88px;
-          height: 100px;
+          width: 68px;
+          height: 80px;
       }
+
+      .sec3_child2 .title1{
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: -1px;
+
+    }
+
+    .sec3_child2 .para2{
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: -1px;
+        margin-top: 10px;
+    }
 
       /* section4 start */
       .sec4_main {
           grid-template-columns: 1fr;
+          padding-bottom: 30px;
       }
 
       .sec4_card:nth-of-type(2) {
@@ -44,10 +306,36 @@
           padding: 30px 20px;
       }
 
+      .sec4_card .title2{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+
+      .sec4_card .para2{
+        font-size: 13px;
+        letter-spacing: -1px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+
       .sec4_cimg {
-          width: 88px;
-          height: 100px;
+          width: 68px;
+          height: 80px;
       }
+
+      .sec4_child1 .title1{
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: -1px;
+
+    }
+
+    .sec4_child1 .para2{
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: -1px;
+        margin-top: 10px;
+    }
 
       .sec4_child1 {
           justify-content: center;
@@ -71,9 +359,27 @@
       .sec5_left_card_footer_text {
           font-size: 10px;
       }
+      
+      .sec5_main{
+        padding-bottom: 40px;
+      }
 
       .sec5_child {
           padding: 15px;
+      }
+
+      .sec_5_grid_child .title1{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+      }
+
+      .sec_5_grid_child .title1 .fw-bold{
+        margin-left: 5px;
+        letter-spacing: -1px;
+      }
+      .sec_5_grid_child .para2{
+        font-weight: 400;
       }
 
       /* section5 end */
@@ -81,32 +387,80 @@
       /* section6 start */
       .sec6_main {
           grid-template-columns: 1fr;
+          padding-bottom: 50px;
       }
 
       .sec6_logo_main {
           justify-content: center;
+          display: flex;
+          gap: 0px 20px;
+          margin-bottom: 20px;
+          margin-left: 0px;
       }
 
-      .sec6_title {
-          font-size: 20px;
+      .sec6_title{
+        font-size: 20px;
       }
+      
+    .sec6_child .title1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .sec6_child .para11{
+        font-size: 15px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
 
       .sec6_child1 {
           justify-content: center;
       }
-      .sec6_right_logo_card{
-        margin: 20px auto;
+
+      .sec6_child .sec5_logo_con{
+        width: 40px;
+        height: 40px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       }
 
-      .sec6_child2{
-        margin-left: 50px;
+      .sec6_child .sec5_logo_con img{
+        width: 30px;
+        height: 30px;
       }
+
+      .sec6_child .sec5_card_logo_con{
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .sec6_child .sec5_card_logo_con img{
+        width: 35px;
+        height: 35px;  
+    }
+
+    .sec6_child .para1{
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: -1px;
+        width: 270px;
+
+    }
+
+    .sec6_child .sec6_right_logo_card{
+        right: 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
 
       /* section6 end */
 
       /* section7 start */
+
       .sec7_main {
           grid-template-columns: 1fr;
+          margin-top: 20px;
       }
 
       .sec7_child {
@@ -127,6 +481,7 @@
 
       .sec7_title {
           font-size: 28px;
+          line-height: 40px;
       }
 
       /* section7 end */
@@ -138,16 +493,43 @@
 
       .sec8_main {
           grid-template-columns: 1fr;
+          padding-top: 80px;
+      }
+
+      .sec8_child .sec_1_title{
+        position: relative;
+        top: -50px;
+        font-size: 30px;
+      }
+
+      .sec8_child .sec_1_subtitle{
+        position: relative;
+        top: -50px;
+        font-size: 30px;
+        line-height: 40px;
       }
 
       .sec8_ringImg {
           position: absolute;
           right: 15px;
-          top: -67px;
-          width: 70px;
+          top: -100px;
+          width: 250px;
           bottom: auto;
           left: auto;
       }
+
+      .sec8_innerDiv{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .sec8_innerDiv .sec8_desc{
+        font-size: 12px;
+        padding: 10px 0px;
+        font-weight: 500;
+        font-weight: 400;
+        letter-spacing: -1px;
+        line-height: 22px;
+    }
 
       /* section8 end */
 
@@ -190,6 +572,12 @@
           justify-content: center;
       }
 
+      .nav .logo_img{
+        width: 260px;
+        height: 60px;
+        left: 5px;
+      }
+
       .sec_1_left {
           text-align: center;
           display: block;
@@ -198,30 +586,51 @@
       }
 
       .sec1_img {
-          width: 70%;
+          width: 90%;
           position: relative;
-          top: -17px;
-          left: 8vw;
+          top: 10px;
       }
 
       .sec_1_title {
-          font-size: 40px;
+          font-size: 45px;
+          letter-spacing: -1;
       }
 
       .sec_1_subtitle {
-          font-size: 40px;
+          font-size: 45px;
+          line-height: 60px;
       }
 
       .sec_1_desc {
-          font-size: 18px;
+          margin: 10px 0px;
+          font-size: 15px;
+          letter-spacing: 1px;
+          line-height: 20px;
+          font-weight: 500;
       }
 
       /* section1 end */
 
       /* section2 start */
+      .section_two .container .title1{
+        font-size: 35px;
+        letter-spacing: -2px;
+        line-height: 45px;
+      }
+
+      .section_two .container .title1 .fw-bold{
+        font-size: 35px;
+      }
+
+      .section_two .container .para1{
+        margin-bottom: 5px;
+      }
+
       .sec2_card_img {
-          width: 80px;
-          height: 80px;
+          width: 70px;
+          height: 70px;
+          padding-top: 15px;
+          padding-left: 10px;
       }
 
       .sec_2_card_main {
@@ -235,6 +644,15 @@
 
       .sec_2_card {
           text-align: start;
+      }
+
+      .sec_2_card .para2{
+        position: relative;
+        top: -10px;
+        font-size: 13px;
+      }
+      .sec_2_card .para2 .fw-bold{
+        font-size: 15px;
       }
 
       /* section2 end */
@@ -255,6 +673,10 @@
       .sec5_card_logo_con {
           top: 50%;
           transform: translateY(-50%);
+      }
+
+      footer{
+        padding-bottom: 80px;
       }
 
   }
