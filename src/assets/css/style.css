@@ -10,7 +10,7 @@
 .section_one {
     position: relative;
     background-image: url(/src/assets/images/section_one_pc_bg.png);
-    min-height: 700px;
+    min-height: 750px;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -26,11 +26,12 @@
 }
 
 .section_one .container{
-    max-width: 1200px;
+    min-width: 1000px;
 }
 
 .nav {
     height: 100px;
+    padding-left: 145px;
 }
 
 .nav .logo_img{
@@ -52,6 +53,7 @@
 .sec_1_left {
     display: grid;
     align-items: center;
+    justify-content: center;
     height: 500px;
 }
 
@@ -72,8 +74,8 @@
 .sec_1_desc {
     color: #532daa;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: -1px;
 }
 
@@ -104,7 +106,9 @@
 /* section_2 start */
 
 .section_two .container{
-    max-width: 1200px;
+    max-width: 1000px;
+    width: auto;
+    height: auto;
 }
 
 .section_two .container .title1{
@@ -160,7 +164,7 @@
 /* section_3 start */
 
 .section_three .container{
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .sec3_main {
@@ -203,7 +207,7 @@
 
 /* section_4 start */
 .section_four .container{
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .sec4_main {
@@ -247,7 +251,7 @@
 
 /* section_5 start */
 .section_five .container{
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .sec_5_grid {
@@ -301,7 +305,7 @@
 
 /* section6 start */
 .section_six .container{
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .sec6_main {
@@ -393,7 +397,7 @@
 }
 
 .section_seven .container{
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .sec7_main {
@@ -422,7 +426,7 @@
 }
 
 .section_eight .container{
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .sec8_main {
@@ -469,6 +473,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    height: 70px;
     background-color: #3C217A;
     padding: 20px;
     text-align: center;
@@ -522,4 +527,10 @@ footer ul li a:hover {
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+.quick_box img{
+    position: relative;
+    top: -10px;
+    width: 220px;
 }

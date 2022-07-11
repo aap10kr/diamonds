@@ -20,6 +20,7 @@ import sec6_logo5 from '../assets/images/sec6_logo5.png'
 import sec6_logo6 from '../assets/images/sec6_logo6.png'
 import sec7_leftImg from '../assets/images/sec7_left_img.png'
 import sec8_ringImg from '../assets/images/sec8_ring.png'
+import footerImg from '../assets/images/fixed.png'
 
 function Home() {
   return (
@@ -291,7 +292,7 @@ function Home() {
                   <span className='fw-bold'>가 입 조 건</span>
                 </h1>
                 <p className='para2 text-center text-lg-start'>
-                  조건 중<br/>1가지를 인증하고 가입해보세요
+                  조건 중 1가지를 인증하고 가입해보세요
                 </p>
               </div>
             </div>
@@ -477,8 +478,8 @@ function Home() {
                   만나는 것은 더욱 쉽지 않은 일이라는 것 잘 알고 있습니다. <br /> <br />
 
                   하지만 검증된 사람을 만나고자 지인에게 소개팅을 부탁하는 것은<br />
-                  왠지 부담스럽습니다. 가입하고자 알아봤던 결혼정보회사는 절차가<br />
-                  너무 불편하고 가입하기엔 너무 이른 나이실 겁니다.<br /><br />
+                  왠지 부담스럽습니다. 가입하고자 알아봤던 결혼정보회사는<br />
+                  절차가 너무 불편하고 가입하기엔 너무 이른 나이실 겁니다.<br /><br />
 
                   이젠 다이아매치를 통해 이러한 고민을 해결하실 수 있습니다.<br />
                   다이아매치만의 혁신적인 시스템을 통해<br />
@@ -486,7 +487,7 @@ function Home() {
 
                   다이아매치에 가입하신 분들은 모두 능력있고 매력적인 이성을<br />
                   만나기 위한 자격을 갖추신 특별한 분들입니다.<br />
-                  특별한 회원분들에게 특별한 만남을 선사해드리고자 다이아매치는<br />
+                  특별한 회원분들에게 특별한 만남을 선사해드리고자 다이아매치<br />
                   전문직종 등 특별한 단체와의 제휴를 꾸준히 진행하고 있습니다.<br /><br />
 
                   물론 결혼정보회사와 다르게 가입비는 일절 없으며 '소개' 등<br />
@@ -519,7 +520,7 @@ function Home() {
 
       <div class="quick_box mobile_screen">
         <a className='mobile_bottom_link' href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
-          다이아매치 다운로드
+          <img src={footerImg} className='fixed'/>
         </a>
       </div>
     </div>

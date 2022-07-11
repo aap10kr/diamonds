@@ -1,5 +1,55 @@
-  /* responsive start */
-  @media only screen and (min-width: 768px) {   
+
+  @media only screen and (min-width: 1920px) { 
+    .section_one .container{
+        min-width: 1200px;
+        width: auto;
+        height: auto;
+    }
+    .section_two .container{
+        max-width: 1200px;
+        width: auto;
+        height: auto;
+    }
+
+    .sec_2_card_main{
+        position: relative;
+        left: 100px;
+    }
+
+    .section_three .container{
+        max-width: 1200px;
+        width: auto;
+        height: auto;
+    }
+    .section_four .container{
+        max-width: 1200px;
+        width: auto;
+        height: auto;
+    }
+    .section_five .container{
+        max-width: 1200px;
+        width: auto;
+        height: auto;
+    }
+    .section_six .container{
+        max-width: 1200px;
+        width: auto;
+        height: auto;
+    }
+    .section_seven .container{
+        max-width: 1200px;
+        width: auto;
+        height: auto;
+    }
+  }
+
+  @media only screen and (min-width: 768px) { 
+
+
+    .sec1_main{
+        height: 100%;
+    }
+    
       /* sec2 */
 
       .section_two .container .para1{
@@ -524,11 +574,10 @@
     }
 
     .sec8_innerDiv .sec8_desc{
-        font-size: 12px;
-        padding: 10px 0px;
-        font-weight: 500;
+        font-size: 13px;
         font-weight: 400;
-        line-height: 22px;
+        line-height: 23px;
+        letter-spacing: -1px;
     }
 
       /* section8 end */
@@ -575,7 +624,7 @@
       .nav .logo_img{
         width: 260px;
         height: 60px;
-        left: 5px;
+        left: -70px;
       }
 
       .sec_1_left {
@@ -603,10 +652,10 @@
 
       .sec_1_desc {
           margin: 10px 0px;
-          font-size: 20px;
+          font-size: 17px;
           letter-spacing: -1px;
-          line-height: 20px;
-          font-weight: 400;
+          line-height: 25px;
+          font-weight: 500;
       }
 
       /* section1 end */
