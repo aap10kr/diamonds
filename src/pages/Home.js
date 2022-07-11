@@ -174,7 +174,7 @@ function Home() {
                 <h1 className='title1 text_violet text-center text-lg-start'>
                   지인 소개보다 <br />
                   <span className='fw-bold'>믿을 수 있는</span><br className='pc_screen' />
-                  <span className='fw-bold'>소개팅 <span className='title1'>어플</span></span>
+                  <span className='fw-bold'> 소개팅 <span className='title1'>어플</span></span>
                 </h1>
                 <p className='para2 text-center text-lg-start'>
                   결혼 정보 회사보다는 편하고 <br />
@@ -274,7 +274,9 @@ function Home() {
                   <p className='sec5_card2_title'>여성만 인증 가능</p>
                   <h2 className='title2'>빛나는 외모</h2>
                   <hr />
-                  <p className='para2'><span className='text_violet fw-bold'>프로필 심사 통과</span> 인증하기</p>
+                  <p className='para2'><span className='text_violet fw-bold'>프로필 심사 통과</span>
+                    <br/>인증하기
+                  </p>
                   <p className='sec5_left_card_footer_text'>
                     매력지수 3.0 이상
                   </p>
@@ -289,7 +291,7 @@ function Home() {
                   <span className='fw-bold'>가 입 조 건</span>
                 </h1>
                 <p className='para2 text-center text-lg-start'>
-                  조건 중 1가지를 인증하고 가입해보세요
+                  조건 중<br/>1가지를 인증하고 가입해보세요
                 </p>
               </div>
             </div>
@@ -452,9 +454,9 @@ function Home() {
               <div className='sec-8-text'>
                 <h1 className='sec_1_title'>상위1%의</h1>
                 <h1 className='sec_1_subtitle'>
-                  다이아매치
-                  <br />
                   당신이기에,
+                  <br />
+                  다이아매치 
                 </h1>
                 <div class="btnArea02">
                   <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
