@@ -100,6 +100,10 @@
             margin-left: 50px;
         }
 
+        .section_three .sec3_child2 .title1 .fw-blod .title1{
+            word-break: keep-all;
+        }
+
         .sec3_card{
             width: 450px;
         }
@@ -475,7 +479,7 @@
       /* section6 start */
       .sec6_main {
           grid-template-columns: 1fr;
-          padding-bottom: 50px;
+          padding-bottom: 30px;
       }
 
       .sec6_logo_main {
@@ -599,7 +603,7 @@
 
       .sec8_ringImg {
           position: absolute;
-          right: -30px;
+          right: -20px;
           top: -100px;
           width: 250px;
           bottom: auto;
