@@ -335,6 +335,11 @@
           padding-bottom: 30px;
       }
 
+      .sec3_main .sec3_child2 .title1{
+        word-break: keep-all;
+        letter-spacing: -1px;
+    }
+
       .sec3_card {
           padding: 25px 20px;
       }
