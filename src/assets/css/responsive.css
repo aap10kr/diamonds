@@ -44,6 +44,47 @@
     }
   }
 
+  @media only screen and (max-width: 1920px) { 
+
+    .section_one .container{
+        min-height: 1080px;
+        width: auto;
+        height: auto;
+    }
+    .section_two .container{
+        min-height: 1080px;
+        width: auto;
+        height: auto;
+    }
+
+    .section_three .container{
+        min-height: 1080px;
+        width: auto;
+        height: auto;
+    }
+    .section_four .container{
+        min-height: 1080px;
+        width: auto;
+        height: auto;
+    }
+    .section_five .container{
+        min-height: 1080px;
+        width: auto;
+        height: auto;
+    }
+    .section_six .container{
+        min-height: 1080px;
+        width: auto;
+        height: auto;
+    }
+    .section_seven .container{
+        min-height: 1080px;
+        width: auto;
+        height: auto;
+    }
+  }
+
+
   @media only screen and (min-width: 768px) { 
 
     .section_one{
