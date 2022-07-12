@@ -1,36 +1,5 @@
 
   @media only screen and (min-width: 1920px) { 
-    .mobile_section_one{
-        padding: 30px 0px;
-    }
-
-    .mobile_section_two{
-        padding: 30px 0px;
-    }
-
-    .mobile_section_three{
-        padding: 30px 0px;
-    }
-
-    .mobile_section_four{
-        padding: 30px 0px;
-    }
-
-    .mobile_section_five{
-        padding: 30px 0px;
-    }
-
-    .mobile_section_six{
-        padding: 30px 0px;
-    }
-
-    .mobile_section_seven{
-        padding: 30px 0px;
-    }
-
-    .mobile_section_eight{
-        padding: 30px 0px;
-    }
 
     .section_one .container{
         min-width: 1200px;
@@ -317,6 +286,41 @@
 
 
   @media only screen and (max-width: 991px) {
+
+
+    .mobile_section_one{
+        padding: 30px 0px;
+    }
+
+    .mobile_section_two{
+        padding: 30px 0px;
+    }
+
+    .mobile_section_three{
+        padding: 30px 0px;
+    }
+
+    .mobile_section_four{
+        padding: 30px 0px;
+    }
+
+    .mobile_section_five{
+        padding: 30px 0px;
+    }
+
+    .mobile_section_six{
+        padding: 30px 0px;
+    }
+
+    .mobile_section_seven{
+        padding: 30px 0px;
+    }
+
+    .mobile_section_eight{
+        padding: 30px 0px;
+    }
+
+
       .spaceY {
           padding: 40px 0px;
       }
