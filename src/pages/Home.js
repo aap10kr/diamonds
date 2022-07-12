@@ -520,7 +520,7 @@ function Home() {
 
       <div class="quick_box mobile_screen">
         <a className='mobile_bottom_link' href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
-          <img src={footerImg} className='fixed'/>
+          <img src={footerImg} className='fixed' alt=''/>
         </a>
       </div>
     </div>
