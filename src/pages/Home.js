@@ -65,10 +65,10 @@ function Home() {
       </div>
       <div className="mobile_section_one mobile_screen">
         <div className="container">
+          <div className='sec_1_left'>
           <div className='nav'>
           <img src={logo_img} className="logo_img" alt="" />
           </div>
-          <div className='sec_1_left'>
             <div>
               <h1 className='sec_1_title'>상위1%의</h1>
               <h1 className='sec_1_subtitle'>
@@ -345,7 +345,7 @@ function Home() {
                   <img src={sec6_logo4} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  '다이아매치' 대한공중보건 치과의사협회와 제휴 협약 <br />
+                  '다이아매치' 대한공중보건치과의사협회와 제휴 협약 <br />
                   (2021. 07. 08)
                 </p>
               </div>

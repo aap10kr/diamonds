@@ -706,6 +706,8 @@
       /* section1 start */
 
       .nav {
+          display: flex;
+          align-items: center;
           justify-content: center;
           width: 100px;
           padding: 12px 0px 30px 0px;
