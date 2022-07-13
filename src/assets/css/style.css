@@ -435,11 +435,13 @@
 }
 
 .sec_8_title{
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 300;
     color: #3C217A;
 }
 
 .sec_8_subtitle{
+    font-size: 50px;
     font-weight: bold;
     color: #3C217A;
 }
