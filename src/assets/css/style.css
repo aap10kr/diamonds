@@ -30,15 +30,15 @@
 }
 
 .nav {
-    height: 100px;
+    width: 100px;
 }
 
 .nav .logo_img{
     position: relative;
     top: 10px;
     left: -100px;	
-    width: auto;
-    max-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
