@@ -38,8 +38,8 @@
     position: relative;
     top: 10px;
     left: -100px;	
-    max-width: 100px;
-    height: auto;
+    width: auto;
+    max-height: auto;
 }
 
 
