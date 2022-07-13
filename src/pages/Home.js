@@ -267,6 +267,7 @@ function Home() {
                   <p className='para2'><span className='text_violet fw-bold'>명문집안</span> 인증하기</p>
                   <p className='sec5_left_card_footer_text'>
                     등 다이아매치 내규에 따른 조건 중
+                    <br/>
                     1가지 인증하기
                   </p>
                 </div>
@@ -362,7 +363,7 @@ function Home() {
                   <img src={sec6_logo1} alt="" />
                 </div>
                 <p className='para1 mb-0'>
-                  남성은 1억5000만원 슈퍼카나 상남3구, 여성은?<br />
+                  남성은 1억5000만원 슈퍼카나 강남3구, 여성은?<br />
                   (2021. 01. 25)
                 </p>
               </div>
@@ -438,7 +439,7 @@ function Home() {
                   <span className='fw-bold'>프라이빗 소통 공간</span>
                 </h1>
                 <p className='para1 mt-2 mt-md-3'>
-                  인연과 설레임과 자유로운 수다가 공존하는 라운지
+                  인연의 설레임과 자유로운 수다가 공존하는 라운지
                 </p>
               </div>
             </div>
@@ -454,11 +455,8 @@ function Home() {
             <div className="sec8_child sec8_child1">
               <div className='sec-8-text'>
                 <h1 className='sec_1_title'>상위1%의</h1>
-                <h1 className='sec_1_subtitle'>
-                  당신이기에,
-                  <br />
-                  다이아매치 
-                </h1>
+                <h1 className='sec_1_title'>당신이기에,</h1>
+                <h1 className='sec_1_subtitle'>다이아매치</h1>
                 <div class="btnArea02">
                   <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
                     <img src={btn_1} alt="" />
