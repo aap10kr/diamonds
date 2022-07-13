@@ -28,12 +28,12 @@ function Home() {
       {/* section1 start */}
       <div className="section_one pc_screen">
         <div className="container">
-          <div className='nav'>
-            <img src={logo_img} className="logo_img" alt="" />
-          </div>
 
           <div className='sec1_main'>
             <div className='sec_1_left'>
+              <div className='nav'>
+                <img src={logo_img} className="logo_img" alt="" />
+              </div>
               <div>
                 <h1 className='sec_1_title'>상위1%의</h1>
                 <h1 className='sec_1_subtitle'>
@@ -454,9 +454,9 @@ function Home() {
           <div className="sec8_main">
             <div className="sec8_child sec8_child1">
               <div className='sec-8-text'>
-                <h1 className='sec_1_title'>상위1%의</h1>
-                <h1 className='sec_1_title'>당신이기에,</h1>
-                <h1 className='sec_1_subtitle'>다이아매치</h1>
+                <h1 className='sec_8_title'>상위1%의</h1>
+                <h1 className='sec_8_title'>당신이기에,</h1>
+                <h1 className='sec_8_subtitle'>다이아매치</h1>
                 <div class="btnArea02">
                   <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
                     <img src={btn_1} alt="" />
