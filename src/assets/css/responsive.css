@@ -711,7 +711,8 @@
 
       .nav {
           justify-content: center;
-          width: 50px;
+          width: 100px;
+          padding: 30px 0px;
       }
 
       .nav .logo_img{
