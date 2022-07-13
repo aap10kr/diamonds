@@ -36,11 +36,13 @@
 
 .nav .logo_img{
     position: relative;
+    top: 10px;
+    left: -100px;	
     width: 300px;
     height: 100px;
-    top: 10px;
-    left: -100px;
+    object-fit: cover;
 }
+
 
 
 .logoText {
