@@ -439,7 +439,7 @@ function Home() {
                   <span className='fw-bold'>프라이빗 소통 공간</span>
                 </h1>
                 <p className='para1 mt-2 mt-md-3'>
-                  인연의 설레임과 자유로운 수다가 공존하는 라운지
+                  인연의ㅁㄴㅇ 설레임과 자유로운 수다가 공존하는 라운지
                 </p>
               </div>
             </div>
