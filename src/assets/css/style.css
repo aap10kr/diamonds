@@ -434,6 +434,16 @@
     grid-gap: 30px;
 }
 
+.sec_8_title{
+    font-weight: 400;
+    color: #3C217A;
+}
+
+.sec_8_subtitle{
+    font-weight: bold;
+    color: #3C217A;
+}
+
 .btnArea02 {
     margin-top: 40px;
 }
