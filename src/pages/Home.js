@@ -454,8 +454,8 @@ function Home() {
           <div className="sec8_main">
             <div className="sec8_child sec8_child1">
               <div className='sec-8-text'>
-                <h1 className='sec_8_title'>상위1%의</h1>
-                <h1 className='sec_8_title'>당신이기에,</h1>
+                <h1 className='sec_8_title'>상위1%인</h1>
+                <h1 className='sec_8_title1'>당신이기에,</h1>
                 <h1 className='sec_8_subtitle'>다이아매치</h1>
                 <div class="btnArea02">
                   <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
@@ -485,7 +485,7 @@ function Home() {
 
                   다이아매치에 가입하신 분들은 모두 능력있고 매력적인 이성을<br />
                   만나기 위한 자격을 갖추신 특별한 분들입니다.<br />
-                  특별한 회원분들에게 특별한 만남을 선사해드리고자 다이아매치<br />
+                  특별한 회원분들에게 특별한 만남을 선사해드리고자 다이아매치는<br />
                   전문직종 등 특별한 단체와의 제휴를 꾸준히 진행하고 있습니다.<br /><br />
 
                   물론 결혼정보회사와 다르게 가입비는 일절 없으며 '소개' 등<br />
