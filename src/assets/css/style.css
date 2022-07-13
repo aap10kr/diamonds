@@ -437,6 +437,13 @@
     font-size: 50px;
     font-weight: 300;
     color: #3C217A;
+    letter-spacing: 1px;
+}
+
+.sec_8_title1{
+    font-size: 50px;
+    font-weight: 300;
+    color: #3C217A;
 }
 
 .sec_8_subtitle{

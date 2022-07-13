@@ -722,7 +722,7 @@
         max-width: 100%;
         height: auto;
         left: 125px;
-        display: inline-block;
+        margin: 0 auto;
       }
 
       .sec_1_left {
