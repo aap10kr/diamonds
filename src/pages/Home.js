@@ -21,6 +21,7 @@ import sec6_logo6 from '../assets/images/sec6_logo6.png'
 import sec7_leftImg from '../assets/images/sec7_left_img.png'
 import sec8_ringImg from '../assets/images/sec8_ring.png'
 import footerImg from '../assets/images/fixed.png'
+import Hlogo_Img from '../assets/images/Hartlodo.png'
 
 function Home() {
   return (
@@ -55,6 +56,10 @@ function Home() {
                   </a>
                 </div>
               </div>
+              <div className='nav2'>
+                 <img src={Hlogo_Img} className="Hlogo_img" alt="" />
+              </div>
+        
             </div>
             <div>
               <img src={sec1_img} className="sec1_img" alt="" />
@@ -518,6 +523,7 @@ function Home() {
 
       <div class="quick_box mobile_screen">
         <a className='mobile_bottom_link' href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
+          <img src={Hlogo_Img} className="Hlogo_img" alt="" />
           <img src={footerImg} className='fixed' alt=''/>
         </a>
       </div>
