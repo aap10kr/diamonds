@@ -140,7 +140,7 @@ function Home() {
             <div className='sec3_card_group'>
               <div className="sec3_card cursor_point">
                 <img src={sec3_cimg1} className="sec3_cimg" alt="" />
-                <div>
+                <div className='title-wrap'>
                   <p className='title2 mb-2 mb-md-3'>통신사를 통한 본인인증</p>
                   <p className='para2 mb-0'>
                     휴대폰 본인인증을 통해 <br />
@@ -150,7 +150,7 @@ function Home() {
               </div>
               <div className="sec3_card cursor_point mt-4">
                 <img src={sec3_cimg2} className="sec3_cimg" alt="" />
-                <div>
+                <div className='title-wrap'>
                   <p className='title2 mb-2 mb-md-3'>학력, 직장, 직업 인증 시스템</p>
                   <p className='para2 mb-0'>
                     약 30만건의 정확한 인증을 통해  <br />
@@ -160,7 +160,7 @@ function Home() {
               </div>
               <div className="sec3_card cursor_point mt-4">
                 <img src={sec3_cimg3} className="sec3_cimg" alt="" />
-                <div>
+                <div className='title-wrap'>
                   <p className='title2 mb-2 mb-md-3'>아는 사람 만나지 않기</p>
                   <p className='para2 mb-0'>
                     저장된 연락처 등록을 통해 아는 <br />
@@ -287,7 +287,7 @@ function Home() {
               </div>
             </div>
             <div className='sec_5_grid_child'>
-              <div>
+              <div className='title_wrap'>
                 <h1 className='title1 text_violet text-center text-lg-start'>
                   다이아매치<br />
                   <span className='fw-bold'>가 입 조 건</span>
@@ -409,8 +409,8 @@ function Home() {
             </div>
             <div className="sec7_child sec7_child2">
               <div className='text-white'>
-                <h1 className='sec6_title'>오늘 하루 어땠어?</h1>
-                <h1 className='sec7_title'>
+                <h1 className='sec7_title'>오늘 하루 어땠어?</h1>
+                <h1 className='sec7_title1'>
                   오직 <span className='fw-bold'>다이아매치 회원</span>들만<br />
                   이용 가능한 특별한 <br />
                   <span className='fw-bold'>프라이빗 소통 공간</span>
