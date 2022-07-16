@@ -52,7 +52,7 @@
         height: auto;
     }
     .section_two .container{
-        min-height: 600px;
+        min-height: 200px;
         width: auto;
         height: auto;
     }
@@ -120,17 +120,30 @@
     }
 
 
+
     .sec1_main{
         height: 100%;
+    }
+
+    .sec1_main .nav{
+        position: relative;
+        top: -60px;
+    }
+
+
+    .sec_1_subtitle{
+        padding: 2px 0px 10px 0px;
     }
     
       /* sec2 */
 
       .section_two .container .para1{
+          font-size: 26px;
           padding-bottom: 15px;
         }
         
-        .sec_2_card_main {
+        .sec_2_card {
+            padding: 30px 0px;
         }
 
         /* sec3 */
@@ -173,8 +186,8 @@
 
         .sec3_child2 .para2{
             font-weight: 400;
-            font-size: 20px;
-            letter-spacing: -1px;
+            font-size: 26px;
+            letter-spacing: -2px;
             margin-top: 20px;
         }
 
@@ -185,13 +198,14 @@
         }
 
         .sec4_child1 .title1{
-            font-size: 60px;
+            font-size: 58px;
             line-height: 75px;
+            letter-spacing: -2px;
         }
 
         .sec4_child1 .para2{
             font-weight: 400;
-            font-size: 20px;
+            font-size: 26px;
             letter-spacing: -1px;
             line-height: 30px;
             margin-top: 20px;
@@ -267,8 +281,8 @@
         }
 
         .sec_5_grid_child .para2{
-            font-size: 20px;
-            letter-spacing: -1px;
+            font-size: 26px;
+            letter-spacing: -2px;
             font-weight: 400;
             margin-top: 15px;
 
@@ -286,8 +300,8 @@
     }
 
     .sec6_child .para11{
-        font-size: 20px;
-        letter-spacing: -1px;
+        font-size: 26px;
+        letter-spacing: -2px;
         margin-top: 23px;
         font-weight: 400;
     }
@@ -331,7 +345,7 @@
     }
 
     .sec7_child .para1{
-        font-size: 20px;
+        font-size: 26px;
     }
 
      /* sec8 */
@@ -353,8 +367,8 @@
     }
     
     .btnArea02{
-        top: -100px;
         width: 600px;
+        z-index: 1;
     }
 
     .btnArea02 img{
@@ -366,6 +380,7 @@
         left: -540px;
         top: 350px;
         width: 600px;
+        z-index: 10;
     }
 
     .sec8_innerDiv{
@@ -813,6 +828,7 @@
       .sec_2_card>div {
           display: flex;
           gap: 20px;
+          padding: 20px 0px;
       }
 
       .sec_2_card {
@@ -823,6 +839,7 @@
         position: relative;
         top: -10px;
         font-size: 13px;
+        line-height: 25px;
       }
       .sec_2_card .para2 .fw-bold{
         font-size: 15px;
