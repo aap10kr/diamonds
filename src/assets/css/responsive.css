@@ -128,11 +128,19 @@
     .sec1_main .nav{
         position: relative;
         top: -60px;
+        left: 8px;
     }
 
+    .sec_1_title{
+        letter-spacing: 8px;
+    }
 
     .sec_1_subtitle{
         padding: 2px 0px 10px 0px;
+    }
+
+    .sec_1_desc{
+        letter-spacing: 1px;
     }
     
       /* sec2 */
@@ -357,6 +365,7 @@
     .sec8_child .sec_8_title{
         line-height: 70px;
         font-size: 60px;
+        letter-spacing: 6px;
     }
     .sec8_child .sec_8_title1{
         font-size: 60px;
@@ -364,6 +373,7 @@
     .sec8_child .sec_8_subtitle{
         font-size: 60px;
         padding-bottom: 60px;
+        letter-spacing: 2p1;
     }
     
     .btnArea02{
@@ -694,6 +704,7 @@
         top: -50px;
         font-size: 40px;
         line-height: 40px;
+        letter-spacing: 1px;
       }
 
       .sec8_ringImg {
@@ -781,7 +792,7 @@
 
       .sec_1_title {
           font-size: 45px;
-          letter-spacing: -1;
+          letter-spacing: 4px;
       }
 
       .sec_1_subtitle {
