@@ -518,16 +518,19 @@
     background-color: #3C217A;
     padding: 20px;
     text-align: center;
+    z-index: 1;
 }
 
 .quick_box img {
     width: 100%;
 }
 .mobile_bottom_link{
+    position: relative;
     text-decoration: none;
     font-size: 20px;
     color: #fff;
     width: 100%;
+    z-index: 1;
 }
 
 .mobile_bottom_link:hover{
