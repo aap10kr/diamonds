@@ -521,7 +521,7 @@ function Home() {
       {/* footer */}
 
       <div class="quick_box mobile_screen">
-        <a className='mobile_bottom_link' href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
+        <a className='mobile_bottom_link' href="https://diamatch.co.kr/download" rel="noreferrer" target="_blank">
           <img src={Hlogo_Img} className="Hlogo_img" alt="" />
           <img src={footerImg} className='fixed' alt=''/>
         </a>
