@@ -473,8 +473,8 @@ function Home() {
               </div>
             </div>
             <div className="sec8_child sec8_child2">
-              <img src={sec8_ringImg} className="sec8_ringImg" alt="" />
               <div className='sec8_innerDiv'>
+              <img src={sec8_ringImg} className="sec8_ringImg" alt="" />
                 <p className='sec8_desc'>
                   다이아처럼 매력적인 당신이기에, 불확실한 누군가를 <br />
                   만나는 것은 더욱 쉽지 않은 일이라는 것 잘 알고 있습니다. <br /> <br />
