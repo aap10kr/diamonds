@@ -411,7 +411,7 @@
         max-width: 768px;
       }
 
-      .nav {
+/*       .nav {
         width: 100%;
       }
     
@@ -419,7 +419,20 @@
           position: relative;
           top: 10px;	
           width: 112px;
-      }
+      } */
+
+      .nav {
+        position: relative;
+        top: 10px;	
+        width: 100%;
+        margin: 0 auto;
+    }
+
+     .nav .logo_img{
+        width: 112px;
+        height: auto;
+        margin: 0 auto;
+    }
 
       .sec1_img{
         width: 500px;
