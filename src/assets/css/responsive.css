@@ -349,6 +349,8 @@
      /* sec8 */
 
     .sec8_child .sec-8-text{
+        position: relative;
+        top: 30px;
         line-height: 10px;
     }
 
