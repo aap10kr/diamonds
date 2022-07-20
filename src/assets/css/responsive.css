@@ -900,5 +900,19 @@
       }
   }
 
+  @media(max-width:400px){
+    .nav {
+        position: relative;
+        top: 10px;	
+        width: 40px;
+        margin: 0 auto;
+    }
+
+    .nav .logo_img{
+        max-width: 100%;
+        height: auto;
+    }
+   }
+
 
   /* responsive end */
