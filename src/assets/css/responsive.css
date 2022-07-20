@@ -119,8 +119,6 @@
         padding: 150px 0px;
     }
 
-
-
     .sec1_main{
         height: 100%;
     }
@@ -156,9 +154,9 @@
 
         /* sec3 */
 
-        .section_three{
+/*         .section_three{
             margin-left: 50px;
-        }
+        } */
 
         .section_three .sec3_child2 .title1 .fw-blod .title1{
             word-break: keep-all;
@@ -201,9 +199,9 @@
 
         /* sec4 */
 
-        .section_four{
+/*         .section_four{
             margin-left: 50px;
-        }
+        } */
 
         .sec4_child1 .title1{
             font-size: 58px;
@@ -238,9 +236,9 @@
 
         /* sec5 */
 
-        .section_five{
+/*         .section_five{
             margin-left: 50px;
-        }
+        } */
 
         .sec5_main{
             width: 100%;
@@ -332,10 +330,6 @@
 
     /* sec7 */
 
-    .sec7_main .sec7_child img{
-        margin-left: 70px;
-    }
-
     .text-white .sec7_title{
         font-size: 40px;
         font-weight: 200;
@@ -411,6 +405,85 @@
           padding: 55px 0px;
       }
 
+      .section_one .container{
+        max-width: 768px;
+      }
+
+      .nav {
+        width: 100px;
+      }
+    
+      .nav .logo_img{
+          position: relative;
+          top: 10px;	
+          max-width: 100%;
+      }
+
+      .sec1_img{
+        width: 500px;
+        position: relative;
+        top: 30px;
+        left: 100px;
+    }
+    
+    .logoText {
+        color: #3C217A;
+        font-weight: 600;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    
+    .sec_1_left {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+    
+    .sec_1_title {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 30px;
+        color: var(--main-color);
+    }
+    
+    .sec_1_subtitle {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 65px;
+        color: var(--main-color);
+    }
+    
+    .sec_1_desc {
+        color: #532daa;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -2px;
+    }
+
+      .btnArea01{
+        margin-top: 30px;
+    }
+    
+    .btnArea01 img {
+        height: 40px;
+        width: 100px;
+    }
+
+    .nav2{
+        width: 100px;
+        position: relative;
+        top: -140px;
+        left: 170px;
+    }
+
+    .Hlogo_img{
+        max-width: 55px;
+        height: auto;
+    }
+
+
       .section_two{
         padding-top: 100px;
       }
@@ -425,7 +498,7 @@
         padding-bottom: 15px;
       }
       
-      .sec_2_card {
+      .sec_2_card>div {
           padding: 20px 0px;
       }
 
@@ -436,6 +509,7 @@
 
       .sec_2_card .fw-bold{
         font-size: 15px;
+        letter-spacing: -1px;
       }
 
       .sec3_main {
@@ -609,7 +683,8 @@
       }
 
       .sec6_child{
-        padding-right: 10px;
+        width: 90%;
+        margin: 0 auto;
       }
       
     .sec6_child .title1{
@@ -639,9 +714,9 @@
       }
 
       .sec6_child .sec5_card_logo_con{
-        margin-left: 10px;
-        width: 50px;
-        height: 50px;
+        margin-left: 30px;
+        width: 60px;
+        height: 60px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 
@@ -654,8 +729,7 @@
         font-size: 13px;
         font-weight: 400;
         letter-spacing: -1px;
-        width: 270px;
-
+        margin-left: 15px;
     }
 
     .sec6_child .sec6_right_logo_card{
@@ -679,6 +753,7 @@
 
       .sec7_leftImg {
           width: 60%;
+          margin-left: 0px;
       }
 
       .sec7_child1 {
@@ -689,9 +764,19 @@
           order: 1;
       }
 
-      .sec7_title {
-          font-size: 28px;
+      .sec7_child2 .sec7_title {
+          font-size: 25px;
           line-height: 40px;
+      }
+
+      .sec7_child2 .sec7_title1 {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 60px;
+      }
+
+      .sec7_child2 .para1{
+          font-size: 20px;
       }
 
       /* section7 end */
@@ -812,6 +897,7 @@
           width: 90%;
           position: relative;
           top: 10px;
+          left: 0px;
       }
 
       .sec_1_title {
@@ -942,6 +1028,25 @@
         width: 112px;
         height: 35px;
         margin: 0 auto;
+    }
+
+    .sec6_child2 {
+        position: relative;
+        left: 15px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .sec6_child .sec5_card_logo_con {
+        margin-left: 30px;
+        width: 40px;
+        height: 40px;
+        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    }
+
+    .sec6_child .sec5_card_logo_con img {
+        width: 25px;
+        height: 25px;
     }
    }
 

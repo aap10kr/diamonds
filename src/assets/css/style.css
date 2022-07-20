@@ -26,7 +26,6 @@
 }
 
 .section_one .container{
-    min-width: 1000px;
     padding-top: 100px;
 }
 
@@ -115,7 +114,7 @@
 /* section_2 start */
 
 .section_two .container{
-    max-width: 1000px;
+    max-width: 1200px;
     width: auto;
     height: auto;
 }
@@ -145,6 +144,10 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.sec_2_card>div{
+    padding: 30px 10px;
+}
+
 .sec_2_card .para2{
     font-size: 18px;
     padding-bottom: 10px;
@@ -154,7 +157,6 @@
 .sec_2_card .fw-bold{
     font-size: 25px;
     font-weight: 700;
-    letter-spacing: -1px;
 }
 
 .sec_2_card:hover {
@@ -172,7 +174,7 @@
 /* section_3 start */
 
 .section_three .container{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .sec3_main {
@@ -215,7 +217,7 @@
 
 /* section_4 start */
 .section_four .container{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .sec4_main {
@@ -259,12 +261,12 @@
 
 /* section_5 start */
 .section_five .container{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .sec_5_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     grid-gap: 40px;
     height: 100%;
 }
@@ -315,7 +317,7 @@
 
 /* section6 start */
 .section_six .container{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .sec6_main {
@@ -356,10 +358,10 @@
 .sec6_right_logo_card {
     box-shadow: 0px 0px 10px -5px grey;
     border-radius: 15px;
-    padding: 20px 20px;
+    padding: 20px 10px;
     position: relative;
     margin-top: 20px;
-    margin-left: 50px;
+
 }
 
 .sec5_card_logo_con {
@@ -407,7 +409,7 @@
 }
 
 .section_seven .container{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .sec7_main {
@@ -436,7 +438,7 @@
 }
 
 .section_eight .container{
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .sec8_main {
