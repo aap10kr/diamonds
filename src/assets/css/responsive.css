@@ -904,13 +904,14 @@
     .nav {
         position: relative;
         top: 10px;	
-        width: 40px;
+        width: 100%;
         margin: 0 auto;
     }
 
     .nav .logo_img{
-        max-width: 100%;
-        height: auto;
+        width: 112px;
+        height: 35px;
+        margin: 0 auto;
     }
    }
 
