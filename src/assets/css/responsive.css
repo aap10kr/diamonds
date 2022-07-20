@@ -145,14 +145,14 @@
     
       /* sec2 */
 
-      .section_two .container .para1{
+/*       .section_two .container .para1{
           font-size: 26px;
           padding-bottom: 15px;
         }
         
         .sec_2_card {
             padding: 30px 0px;
-        }
+        } */
 
         /* sec3 */
 
@@ -239,7 +239,7 @@
         /* sec5 */
 
         .section_five{
-            margin-left: 200px;
+            margin-left: 50px;
         }
 
         .sec5_main{
@@ -280,17 +280,13 @@
             align-items: center;
         }
 
-        .sec_5_grid_child .title_wrap{
-            margin-left: 50px;
-        }
-
         .sec_5_grid_child .title1{
             font-size: 60px;
         }
 
         .sec_5_grid_child .para2{
             font-size: 26px;
-            letter-spacing: -2px;
+            letter-spacing: -1px;
             font-weight: 400;
             margin-top: 15px;
 
@@ -417,6 +413,29 @@
 
       .section_two{
         padding-top: 100px;
+      }
+
+      .section_two .container .title1{
+        font-size: 35px;
+        line-height: 55px;
+      }
+
+      .section_two .container .para1{
+        font-size: 15px;
+        padding-bottom: 15px;
+      }
+      
+      .sec_2_card {
+          padding: 20px 0px;
+      }
+
+      .sec_2_card .para2{
+        font-size: 13px;
+        line-height: 30px;
+      }
+
+      .sec_2_card .fw-bold{
+        font-size: 15px;
       }
 
       .sec3_main {
@@ -554,18 +573,19 @@
           padding: 15px;
       }
 
-      .sec_5_grid_child .title1{
+      .sec_5_grid_child{
         display: flex;
         justify-content: center;
+      }
+
+      .sec_5_grid_child .title1{
+        margin: 0 auto;
         font-size: 35px;
       }
 
-      .sec_5_grid_child .title1 .fw-bold{
-        margin-left: 5px;
-        letter-spacing: -1px;
-      }
       .sec_5_grid_child .para2{
         font-weight: 400;
+        font-size: 13px;
       }
 
       /* section5 end */
@@ -681,10 +701,10 @@
           justify-content: center;
       }
 
-      .sec8_main {
+/*       .sec8_main {
           grid-template-columns: 1fr;
           padding-top: 80px;
-      }
+      } */
 
       .sec8_child .sec_8_title{
         position: relative;
@@ -705,6 +725,10 @@
         font-size: 40px;
         line-height: 40px;
         letter-spacing: 1px;
+      }
+
+      .btnArea02{
+        display: none;
       }
 
       .sec8_ringImg {
@@ -876,6 +900,12 @@
           top: 50%;
           transform: translateY(-50%);
       }
+
+      
+      .sec8_main {
+        grid-template-columns: 1fr;
+        padding-top: 80px;
+    }
 
       footer{
         padding-bottom: 80px;
