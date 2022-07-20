@@ -686,6 +686,11 @@
         width: 90%;
         margin: 0 auto;
       }
+
+      .sec6_child2 {
+        position: relative;
+        left: 20px;
+    }
       
     .sec6_child .title1{
         font-size: 35px;
@@ -729,7 +734,7 @@
         font-size: 13px;
         font-weight: 400;
         letter-spacing: -1px;
-        margin-left: 15px;
+        margin-left: 35px;
     }
 
     .sec6_child .sec6_right_logo_card{
