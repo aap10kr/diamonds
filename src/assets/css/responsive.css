@@ -403,6 +403,18 @@
 
 
   @media only screen and (max-width: 991px) {
+    .title{
+        white-space: nowrap;
+    }
+
+    .title1{
+        white-space: nowrap;
+    }
+
+    .title2{
+        white-space: nowrap;
+    }
+
       .spaceY {
           padding: 55px 0px;
       }
@@ -675,7 +687,7 @@
 
       .sec_5_grid_child .para2{
         font-weight: 400;
-        font-size: 13px;
+        font-size: 15px;
         margin-top: 15px;
       }
 
@@ -951,6 +963,7 @@
         font-size: 35px;
         letter-spacing: -2px;
         line-height: 45px;
+        white-space: nowrap;
       }
 
       .section_two .container .title1 .fw-bold{
