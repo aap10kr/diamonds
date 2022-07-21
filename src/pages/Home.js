@@ -1,6 +1,6 @@
 import React from 'react'
-import btn_1 from '../assets/images/btn_01.png'
-import btn_2 from '../assets/images/btn_02.png'
+/* import btn_1 from '../assets/images/btn_01.png'
+import btn_2 from '../assets/images/btn_02.png' */
 import logo_img from '../assets/images/logo.png'
 import sec1_img from '../assets/images/section1Img.png'
 import sec2_cimg1 from '../assets/images/sec_2_card_img1.png'
@@ -49,10 +49,10 @@ function Home() {
                 </p>
                 <div class="btnArea01">
                   <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
-                    <img src={btn_1} alt="" />
+                    <img src="http://amanda.co.kr/assets/image/btn-appstore@3x.png" alt="" />
                   </a>
                   <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
-                    <img src={btn_2} alt="" />
+                    <img src="http://amanda.co.kr/assets/image/btn-google@3x.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -464,10 +464,10 @@ function Home() {
                 <h1 className='sec_8_subtitle'>다이아매치</h1>
                 <div class="btnArea02">
                   <a href="https://apps.apple.com/kr/app/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%A7%A4%EC%B9%98-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%86%8C%EA%B0%9C%ED%8C%85/id1447077801" rel="noreferrer" target="_blank">
-                    <img src={btn_1} alt="" />
+                    <img src="http://amanda.co.kr/assets/image/btn-appstore@3x.png" alt="" />
                   </a>
-                  <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">
-                    <img src={btn_2} alt="" />
+                  <a href="https://play.google.com/store/apps/details?id=com.dating.diamatch" rel="noreferrer" target="_blank">                 
+                    <img src="http://amanda.co.kr/assets/image/btn-google@3x.png" alt="" />
                   </a>
                 </div>
               </div>
