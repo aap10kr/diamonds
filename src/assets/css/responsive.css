@@ -676,6 +676,7 @@
       .sec_5_grid_child .para2{
         font-weight: 400;
         font-size: 13px;
+        margin-top: 15px;
       }
 
       /* section5 end */
@@ -906,7 +907,7 @@
 
       .nav .logo_img{
         max-width: 100%;
-        height: auto;
+        height: 31px;
         margin: 0 auto;
       }
 
@@ -1069,7 +1070,7 @@
 
     .nav .logo_img{
         width: 100px;
-        height: auto;
+        height: 31px;
         margin: 0 auto;
     }
 
@@ -1103,7 +1104,7 @@
 
     .nav .logo_img{
         width: 100px;
-        height: auto;
+        height: 31px;
         margin: 0 auto;
     }
 }
@@ -1118,7 +1119,7 @@
 
     .nav .logo_img{
         width: 100%;
-        height: auto;
+        height: 31px;
         margin: 0 auto;
     }
    }
