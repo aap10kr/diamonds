@@ -689,6 +689,7 @@
         font-weight: 400;
         font-size: 15px;
         margin-top: 15px;
+        word-break: keep-all;
       }
 
       /* section5 end */
@@ -801,6 +802,7 @@
       .sec7_child2 .sec7_title {
           font-size: 25px;
           line-height: 40px;
+          white-space: nowrap;
       }
 
       .sec7_child2 .sec7_title1 {
@@ -989,6 +991,7 @@
           display: flex;
           gap: 20px;
           padding: 20px 0px;
+          letter-spacing: -1px;
       }
 
       .sec_2_card {
