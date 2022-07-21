@@ -265,8 +265,8 @@ function Home() {
                   <h2 className='title2'>빛나는 능력</h2>
                   <hr />
                   <p className='para2'><span className='text_violet fw-bold'>명문대학</span> 인증하기</p>
-                  <p className='para2'><span className='text_violet fw-bold'>전문직   </span>  인증하기</p>
-                  <p className='para2' style={{paddingright:"40px"}}><span className='text_violet fw-bold'>고액 자산</span> 인증하기</p>
+                  <p className='para2' style={{paddingRight:"45px"}}><span className='text_violet fw-bold'>전문직   </span>  인증하기</p>
+                  <p className='para2'><span className='text_violet fw-bold'>고액 자산</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>고액 소득</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>고급 자동차</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>명문집안</span> 인증하기</p>
@@ -472,10 +472,36 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="sec8_child sec8_child2">
+            <div className="sec8_child sec8_child2 pc_screen-se">
               <div className='sec8_innerDiv'>
               <img src={sec8_ringImg} className="sec8_ringImg" alt="" />
                 <p className='sec8_desc'>
+                  다이아처럼 매력적인 당신이기에, 불확실한 누군가를 <br />
+                  만나는 것은 더욱 쉽지 않은 일이라는 것 잘 알고 있습니다. <br /> <br />
+
+                  하지만 검증된 사람을 만나고자 지인에게 소개팅을 부탁하는 것은<br />
+                  왠지 부담스럽습니다. 가입하고자 알아봤던 결혼정보회사는<br />
+                  절차가 너무 불편하고 가입하기엔 너무 이른 나이실 겁니다.<br /><br />
+
+                  이젠 다이아매치를 통해 이러한 고민을 해결하실 수 있습니다.<br />
+                  다이아매치만의 혁신적인 시스템을 통해<br />
+                  검증된 이성만을 소개받고 만나실 수 있습니다.<br /><br />
+
+                  다이아매치에 가입하신 분들은 모두 능력있고 매력적인 이성을<br />
+                  만나기 위한 자격을 갖추신 특별한 분들입니다.<br />
+                  특별한 회원분들에게 특별한 만남을 선사해드리고자 다이아매치는<br />
+                  전문직종 등 특별한 단체와의 제휴를 꾸준히 진행하고 있습니다.<br /><br />
+
+                  물론 결혼정보회사와 다르게 가입비는 일절 없으며 '소개' 등<br />
+                  대부분의 서비스는 무료로 이용하실 수 있습니다.
+                </p>
+              </div>
+            </div>
+
+            <div className="sec8_child sec8_child2 mobile_screen-se">
+              <div className='sec8_innerDiv'>
+              <img src={sec8_ringImg} className="sec8_ringImg" alt="" />
+                <p className='sec8_desc-m'>
                   다이아처럼 매력적인 당신이기에, 불확실한 누군가를 <br />
                   만나는 것은 더욱 쉽지 않은 일이라는 것 잘 알고 있습니다. <br /> <br />
 
@@ -504,10 +530,16 @@ function Home() {
 
       {/* footer */}
       <footer>
-        <p>
+        <p className='pc_screen-se'>
           (주)콘버스 / 서울특별시 서초구 강남대로95길 9-18, 3층 <span class="mobile_screen"></span>/ Tel 1668-4312<br />
           대표이사 유신상,서우람 / 사업자등록번호 220-88-61991 <span class="mobile_screen"></span>/ contact@diamatch.co.kr<br />
           통신판매업자신고번호 제 2016-서울서초-1473호
+        </p>
+        <p className='mobile_screen-se'>
+          (주)콘버스 <br/> 서울특별시 서초구 강남대로95길 9-18, 3층 / Tel 1668-4312<br />
+          대표이사 유신상,서우람 / 사업자등록번호 220-88-61991 <br />
+          통신판매업자신고번호 제 2016-서울서초-1473호 <br />
+          contact@diamatch.co.kr
         </p>
         <ul>
           <li><a href="#!">이용약관</a></li>

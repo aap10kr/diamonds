@@ -6,6 +6,14 @@
     display: none;
 }
 
+.pc_screen-se {
+    width: 100%;
+}
+
+.mobile_screen-se {
+    display: none;
+}
+
 /* section_1 start */
 .section_one {
     position: relative;

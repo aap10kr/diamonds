@@ -403,6 +403,10 @@
 
 
   @media only screen and (max-width: 991px) {
+    .sec8_child2 .mobile_screen-se{
+        display: none;
+    }
+
     .title{
         white-space: nowrap;
     }
@@ -848,7 +852,7 @@
         letter-spacing: 1px;
       }
 
-      .sec8_child2{
+      .sec8_child2 .pc_screen-se{
         display: flex;
         justify-content: center;
       }
@@ -892,6 +896,10 @@
           display: block;
           width: 100%;
       }
+
+      .mobile_screen-se {
+        display: none;
+    }
 
       .title1 {
           font-size: 28px;
@@ -1078,6 +1086,12 @@
           font-size: 8px;
           word-break: keep-all;
       }
+
+      .sec8_desc-m{
+        font-size: 85%;
+        letter-spacing: -1px;
+        word-break: keep-all;
+      }
   }
 
   @media(max-width:400px){
@@ -1111,6 +1125,53 @@
     .sec6_child .sec5_card_logo_con img {
         width: 25px;
         height: 25px;
+    }
+
+    .pc_screen-se {
+        display: none;
+    }
+
+    .mobile_screen-se {
+        display: block;
+        width: 100%;
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        background: #333;
+        font-size: 1em;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    footer p {
+        text-align: left;
+        line-height: 30px;
+        padding-left: 30px;
+
+    }
+    
+    footer ul {
+        padding: 10px 0px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    footer ul li a:hover {
+        color: rgba(255, 255, 255, 0.5);
     }
    }
 
