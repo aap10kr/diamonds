@@ -1,6 +1,6 @@
 import React from 'react'
-/* import btn_1 from '../assets/images/btn_01.png'
-import btn_2 from '../assets/images/btn_02.png' */
+import btn_1 from '../assets/images/btn_01.png'
+import btn_2 from '../assets/images/btn_02.png'
 import logo_img from '../assets/images/logo.png'
 import sec1_img from '../assets/images/section1Img.png'
 import sec2_cimg1 from '../assets/images/sec_2_card_img1.png'
