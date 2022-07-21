@@ -903,11 +903,14 @@
 
       .sec7_child2 .para1 {
           font-size: 15px;
+          white-space: nowrap;
       }
 
       .para2 {
           font-size: 15px;
+          padding-right: 40px;
       }
+
 
 
       /* section1 start */
@@ -1073,6 +1076,7 @@
 
       .sec5_left_card_footer_text {
           font-size: 8px;
+          word-break: keep-all;
       }
   }
 

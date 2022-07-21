@@ -265,8 +265,8 @@ function Home() {
                   <h2 className='title2'>빛나는 능력</h2>
                   <hr />
                   <p className='para2'><span className='text_violet fw-bold'>명문대학</span> 인증하기</p>
-                  <p className='para2'><span className='text_violet fw-bold'>전문직 </span> 인증하기</p>
-                  <p className='para2'><span className='text_violet fw-bold'>고액 자산</span> 인증하기</p>
+                  <p className='para2'><span className='text_violet fw-bold'>전문직   </span>  인증하기</p>
+                  <p className='para2' style={{paddingright:"40px"}}><span className='text_violet fw-bold'>고액 자산</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>고액 소득</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>고급 자동차</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>명문집안</span> 인증하기</p>

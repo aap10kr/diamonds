@@ -280,6 +280,7 @@
 
 .sec5_left_card_footer_text {
     font-size: 18px;
+    word-break: keep-all;
 }
 
 .sec5_child1 {
