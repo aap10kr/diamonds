@@ -548,6 +548,40 @@
     color: #fff;
 }
 
+
+.topBtn {
+    position: fixed; 
+    opacity: 0; 
+    bottom: 20px; 
+    right: 20px;
+    z-index: -10; 
+    width: 50px; 
+    height: 50px;
+    border-radius: 100%;
+    border: 0 none;
+    background: lightpink;
+    color: rgb(179, 113, 240);
+    border: 2px solid rgb(179, 113, 240);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.06em;
+    box-shadow: 1px 1px 6px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .topBtn.active {
+    z-index: 10; 
+    opacity: 1; 
+  }
+  
+  .topBtn:hover,
+  .topBtn:focus,
+  .topBtn:active { 
+    outline: 0 none; 
+  }
+
+
 footer {
     padding: 30px 0;
     background: #333;
@@ -576,7 +610,7 @@ footer ul li a {
 
 footer ul li a:hover {
     color: rgba(255, 255, 255, 0.5);
-}
+} 
 
 .quick_box{
     position: fixed;
