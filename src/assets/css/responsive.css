@@ -403,6 +403,18 @@
 
 
   @media only screen and (max-width: 991px) {
+    .top-bar-show .nav{
+        min-width: 1000px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px 110px;
+    }
+    
+    .top-bar-show .nav .logo_img{
+        width: 110px;
+        height: auto;
+    }
+
     .sec8_child2 .mobile_screen-se{
         display: none;
     }
@@ -884,6 +896,18 @@
   }
 
   @media only screen and (max-width: 768px) {
+    .top-bar-show .nav{
+        min-width: 0px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .top-bar-show .nav .logo_img{
+        width: 100px;
+        height: auto;
+    }
+
       .btnArea02 {
           display: none;
       }
@@ -1094,6 +1118,25 @@
   }
 
   @media(max-width:400px){
+    .top-bar-show{
+        width: 100%;
+        height: 60px;
+
+    }
+
+    .top-bar-show .nav{
+        min-width: 0px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px 0px;
+    }
+    
+    .top-bar-show .nav .logo_img{
+        width: 100px;
+        height: auto;
+    }
+
     .nav {
         position: relative;
         top: 10px;	

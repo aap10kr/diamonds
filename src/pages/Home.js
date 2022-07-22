@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 /* import btn_1 from '../assets/images/btn_01.png'
 import btn_2 from '../assets/images/btn_02.png' */
 import btn_3 from '../assets/images/apple.png'
@@ -25,12 +26,12 @@ import sec8_ringImg from '../assets/images/sec8_ring.png'
 import footerImg from '../assets/images/fixed.png'
 import Hlogo_Img from '../assets/images/Hartlodo.png'
 
-import { useState, useEffect } from 'react'
 
 function Home() {
 
   const [ScrollY, setScrollY] = useState(0);
   const [BtnStatus, setBtnStatus] = useState(false); // 버튼 상태
+  const [TopStatus, setTopStatus] = useState(false); // 버튼 상태
   
   const handleFollow = () => {
     setScrollY(window.pageYOffset);
@@ -40,6 +41,17 @@ function Home() {
     } else {
       // 100 이하면 버튼이 사라지게
       setBtnStatus(false);
+    }
+  }
+
+  const handleTopBar = () => {
+    setScrollY(window.pageYOffset);
+    if(ScrollY > 30) {
+      // 50 이상이면 탑바가 보이게
+      setTopStatus(true);
+    } else {
+      // 50 이하면 탑바가 사라지게
+      setTopStatus(false);
     }
   }
 
@@ -55,15 +67,24 @@ function Home() {
   useEffect(() => {
     const watch = () => {
       window.addEventListener('scroll', handleFollow)
+      window.addEventListener('scroll', handleTopBar)
     }
     watch();
     return () => {
       window.removeEventListener('scroll', handleFollow)
+      window.removeEventListener('scroll', handleTopBar)
     }
   })
 
   return (
     <div>
+
+      <div className={TopStatus ? "top-bar-show" : "top-bar"}>
+        <div className='nav'>
+          <img src={logo_img} className="logo_img" alt="" />
+        </div>
+      </div>
+
       {/* section1 start */}
       <div className="section_one pc_screen">
         <div className="container">

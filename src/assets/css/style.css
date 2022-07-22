@@ -14,6 +14,32 @@
     display: none;
 }
 
+.top-bar{
+    display: none;
+}
+
+.top-bar-show{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    height: 70px;
+    z-index: 1;
+}
+
+.top-bar-show .nav{
+    min-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 6px 20px;
+}
+
+.top-bar-show .nav .logo_img{
+    width: 115px;
+    height: auto;
+    
+}
+
 /* section_1 start */
 .section_one {
     position: relative;
