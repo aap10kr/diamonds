@@ -16,6 +16,7 @@
 
 .top-bar{
     display: none;
+    z-index: 1;
 }
 
 .top-bar-show{
@@ -24,7 +25,7 @@
     width: 100%;
     background: white;
     height: 70px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .top-bar-show .nav{
@@ -32,6 +33,7 @@
     height: auto;
     margin: 0 auto;
     padding: 6px 20px;
+    z-index: 1;
 }
 
 .top-bar-show .nav .logo_img{
@@ -573,7 +575,6 @@
 .mobile_bottom_link:hover{
     color: #fff;
 }
-
 
 .topBtn {
     position: fixed; 

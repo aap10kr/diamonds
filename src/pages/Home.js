@@ -31,7 +31,7 @@ function Home() {
 
   const [ScrollY, setScrollY] = useState(0);
   const [BtnStatus, setBtnStatus] = useState(false); // 버튼 상태
-  const [TopStatus, setTopStatus] = useState(false); // 버튼 상태
+  const [TopStatus, setTopStatus] = useState(false); // 탑바 상태
   
   const handleFollow = () => {
     setScrollY(window.pageYOffset);
@@ -47,10 +47,10 @@ function Home() {
   const handleTopBar = () => {
     setScrollY(window.pageYOffset);
     if(ScrollY > 30) {
-      // 50 이상이면 탑바가 보이게
+      // 30 이상이면 탑바가 보이게
       setTopStatus(true);
     } else {
-      // 50 이하면 탑바가 사라지게
+      // 30 이하면 탑바가 사라지게
       setTopStatus(false);
     }
   }
@@ -323,15 +323,20 @@ function Home() {
                   <h2 className='title2'>빛나는 능력</h2>
                   <hr />
                   <p className='para2'><span className='text_violet fw-bold'>명문대학</span> 인증하기</p>
-                  <p className='para2' style={{paddingRight:"45px"}}><span className='text_violet fw-bold'>전문직   </span>  인증하기</p>
+                  <p className='para2' style={{paddingRight:"45px"}}><span className='text_violet fw-bold'>전문직</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>고액 자산</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>고액 소득</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>고급 자동차</span> 인증하기</p>
                   <p className='para2'><span className='text_violet fw-bold'>명문집안</span> 인증하기</p>
-                  <p className='sec5_left_card_footer_text'>
+                  <p className='sec5_left_card_footer_text pc_screen'>
                     등 다이아매치 내규에 따른 조건 중
                     <br/>
                     1가지 인증하기
+                  </p>
+                  <p className='sec5_left_card_footer_text mobile_screen'>
+                    등 다이아매치 내규에 따른 조건 
+                    <br/>
+                    중 1가지 인증하기
                   </p>
                 </div>
                 <div className='sec5_child sec5_child2'>
