@@ -46,22 +46,13 @@ function Home() {
 
   const handleTopBar = () => {
     setScrollY(window.pageYOffset);
-    if(ScrollY > 30) {
+    if(ScrollY > 60) {
       // 30 이상이면 탑바가 보이게
       setTopStatus(true);
     } else {
       // 30 이하면 탑바가 사라지게
       setTopStatus(false);
     }
-  }
-
-  const handleTop = () => {  // 클릭하면 스크롤이 위로 올라가는 함수
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-    setScrollY(0);  // ScrollY 의 값을 초기화
-    setBtnStatus(false); // BtnStatus의 값을 false로 바꿈 => 버튼 숨김
   }
 
   useEffect(() => {
@@ -590,11 +581,6 @@ function Home() {
         </div>
       </div>
       {/* section8 end */}
-      <div className='pc_screen'>
-        <button 
-          className={BtnStatus ? "topBtn active" : "topBtn"} // 버튼 노출 여부
-          onClick={handleTop}>TOP</button>
-      </div>
 
       {/* footer */}
       <footer>
