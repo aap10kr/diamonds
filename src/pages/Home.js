@@ -30,19 +30,8 @@ import Hlogo_Img from '../assets/images/Hartlodo.png'
 function Home() {
 
   const [ScrollY, setScrollY] = useState(0);
-  const [BtnStatus, setBtnStatus] = useState(false); // 버튼 상태
   const [TopStatus, setTopStatus] = useState(false); // 탑바 상태
   
-  const handleFollow = () => {
-    setScrollY(window.pageYOffset);
-    if(ScrollY > 100) {
-      // 100 이상이면 버튼이 보이게
-      setBtnStatus(true);
-    } else {
-      // 100 이하면 버튼이 사라지게
-      setBtnStatus(false);
-    }
-  }
 
   const handleTopBar = () => {
     setScrollY(window.pageYOffset);
@@ -57,12 +46,10 @@ function Home() {
 
   useEffect(() => {
     const watch = () => {
-      window.addEventListener('scroll', handleFollow)
       window.addEventListener('scroll', handleTopBar)
     }
     watch();
     return () => {
-      window.removeEventListener('scroll', handleFollow)
       window.removeEventListener('scroll', handleTopBar)
     }
   })
