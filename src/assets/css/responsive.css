@@ -1118,6 +1118,13 @@
       }
   }
 
+  @media(max-width:600px){
+    .top-bar-show .nav .logo_img{
+        width: 100px;
+        height: 35px;
+    }
+  }
+
   @media(max-width:400px){
     .top-bar-show{
         width: 100%;
