@@ -35,10 +35,10 @@ function Home() {
 
   const handleTopBar = () => {
     setScrollY(window.pageYOffset);
-    if(ScrollY > 60) {
+    if(ScrollY > 40) {
       // 30 이상이면 탑바가 보이게
       setTopStatus(true);
-    } else {
+    } else if (ScrollY < 40) {
       // 30 이하면 탑바가 사라지게
       setTopStatus(false);
     }

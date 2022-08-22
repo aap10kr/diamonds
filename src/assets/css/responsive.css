@@ -451,8 +451,7 @@
       } */
 
       .nav {
-        position: relative;
-        top: 10px;	
+        position: relative;	
         width: 100%;
 
     }
@@ -1120,8 +1119,8 @@
 
   @media(max-width:600px){
     .top-bar-show .nav .logo_img{
-        width: 100px;
-        height: 35px;
+        width: 80px;
+        height: 25px;
     }
   }
 
@@ -1141,20 +1140,20 @@
     }
     
     .top-bar-show .nav .logo_img{
-        width: 100px;
-        height: 35px;
+        width: 80px;
+        height: 20px;
     }
 
     .nav {
-        position: relative;
-        top: 10px;	
+        position: relative;	
+        top: 5px;
         width: 100%;
         margin: 0 auto;
     }
 
     .nav .logo_img{
         width: 100px;
-        height: 31px;
+        height: 25px;
         margin: 0 auto;
     }
 
@@ -1227,30 +1226,30 @@
 
    @media(max-width:300px){
     .nav {
-        position: relative;
-        top: 10px;	
+        position: relative;	
+        top: 5px;
         width: 100%;
         margin: 0 auto;
     }
 
     .nav .logo_img{
-        width: 100px;
-        height: 31px;
+        width: 80px;
+        height: 25px;
         margin: 0 auto;
     }
 }
 
    @media(min-width:401px) and (max-width:700px){
     .nav {
-        position: relative;
-        top: 10px;	
-        width: 100px;
+        position: relative;	
+        top: 5px;
+        width: 80px;
         margin: 0 auto;
     }
 
     .nav .logo_img{
         width: 100%;
-        height: 31px;
+        height: 25px;
         margin: 0 auto;
     }
    }
