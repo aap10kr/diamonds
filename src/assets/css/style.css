@@ -53,6 +53,10 @@ body{
     
 }
 
+fw-bolds{
+    font-weight: 900;
+}
+
 /* section_1 start */
 .section_one {
     position: relative;
@@ -102,7 +106,7 @@ body{
 
 .sec_1_title {
     font-size: 70px;
-    font-weight: 300;
+    font-weight: 100;
     margin-top: 30px;
     color: var(--main-color);
 }
@@ -169,6 +173,10 @@ body{
 .section_two .container .title1{
     font-size: 60px;
     line-height: 80px;
+}
+
+.section_two .container .fw-bolds{
+    font-weight: 900;
 }
 
 
@@ -255,6 +263,10 @@ body{
     align-items: center;
 }
 
+.sec3_child2 .title1 .fw-bolds{
+    font-weight: 900;
+}
+
 .sec3_cimg {
     width: 90px;
     height: 104px;
@@ -303,6 +315,10 @@ body{
     width: 90px;
     height: 104px;
     object-fit: contain;
+}
+
+.sec4_child1 .title1 .fw-bold{
+    font-weight: 900;
 }
 
 /* section_4 end */

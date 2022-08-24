@@ -136,7 +136,7 @@ function Home() {
         <div className="container">
           <h1 className='title1 text_violet text-center'>
             패기와 능력을 갖춘 <br />
-            <span className='fw-bold'>전문직 단체와 정식 제휴</span>
+            <span className='fw-bolds'>전문직 단체와 정식 제휴</span>
           </h1>
           <p className='para1 text-center mt-2 mt-md-3 mb-5'>특별한 분에게 특별한 만남을</p>
           <div className="sec_2_card_main">
@@ -215,8 +215,8 @@ function Home() {
               <div>
                 <h1 className='title1 text_violet text-center text-lg-start'>
                   지인 소개보다 <br />
-                  <span className='fw-bold'>믿을 수 있는</span><br className='pc_screen' />
-                  <span className='fw-bold'> 소개팅 <span className='title1'>어플</span></span>
+                  <span className='fw-bolds'>믿을 수 있는</span><br className='pc_screen' />
+                  <span className='fw-bolds'> 소개팅 <span className='title1'>어플</span></span>
                 </h1>
                 <p className='para2 text-center text-lg-start'>
                   결혼 정보 회사보다는 편하고 <br />
