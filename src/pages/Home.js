@@ -30,16 +30,14 @@ import Hlogo_Img from '../assets/images/Hartlodo.png'
 function Home() {
 
   const [ScrollY, setScrollY] = useState(0);
-  const [TopStatus, setTopStatus] = useState(false); // 탑바 상태
+  const [TopStatus, setTopStatus] = useState(false);
   
 
   const handleTopBar = () => {
     setScrollY(window.pageYOffset);
     if(ScrollY > 40) {
-      // 30 이상이면 탑바가 보이게
       setTopStatus(true);
     } else if (ScrollY < 40) {
-      // 30 이하면 탑바가 사라지게
       setTopStatus(false);
     }
   }
@@ -134,7 +132,7 @@ function Home() {
       {/* section2 start */}
       <div className="section_two spaceY">
         <div className="container">
-          <h1 className='title1 text_violet text-center'>
+          <h1 className='title1 text_violet text-center' >
             패기와 능력을 갖춘 <br />
             <span className='fw-bolds'>전문직 단체와 정식 제휴</span>
           </h1>
@@ -336,7 +334,7 @@ function Home() {
               <div className='title_wrap'>
                 <h1 className='title1 text_violet text-center text-lg-start'>
                   다이아매치<br />
-                  <span className='fw-bold'>가 입 조 건</span>
+                  <span className='fw-bold text_violet_impact'>가 입 조 건</span>
                 </h1>
                 <p className='para2 text-center text-lg-start'>
                   조건 중 1가지를 인증하고 가입해보세요
@@ -365,7 +363,7 @@ function Home() {
                 </div>
                 <div className='text-center text-lg-start'>
                   <h1 className='sec6_title text_violet'>조선일보, 한국경제 등</h1>
-                  <h1 className='title1 text_violet fw-bold'>
+                  <h1 className='title1 fw-bold'>
                     메이저 언론사도 <br />
                     주목하는 다이아매치
                   </h1>

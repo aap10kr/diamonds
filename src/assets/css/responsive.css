@@ -300,6 +300,7 @@
     .sec6_child .title1{
         font-size: 60px;
         line-height: 80px;
+        color: var(--impact-color);
     }
 
     .sec6_child .para11{

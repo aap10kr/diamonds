@@ -115,7 +115,7 @@ fw-bolds{
     font-size: 70px;
     font-weight: 600;
     line-height: 90px;
-    color: var(--main-color);
+    color: var(--impact-color);
 }
 
 .sec_1_desc {
@@ -177,6 +177,7 @@ fw-bolds{
 
 .section_two .container .fw-bolds{
     font-weight: 900;
+    color: var(--impact-color);
 }
 
 
@@ -265,6 +266,7 @@ fw-bolds{
 
 .sec3_child2 .title1 .fw-bolds{
     font-weight: 900;
+    color: var(--impact-color);
 }
 
 .sec3_cimg {
@@ -319,6 +321,7 @@ fw-bolds{
 
 .sec4_child1 .title1 .fw-bold{
     font-weight: 900;
+    color: var(--impact-color);
 }
 
 /* section_4 end */
@@ -454,6 +457,7 @@ fw-bolds{
     justify-content: flex-start;
 }
 
+
 /* section6 end */
 
 /* section7 start */
@@ -463,6 +467,10 @@ fw-bolds{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.text-center .title1{
+    color: var(--impact-color);
 }
 
 .mobile_section_seven{
@@ -516,20 +524,20 @@ fw-bolds{
 .sec_8_title{
     font-size: 50px;
     font-weight: 300;
-    color: #3C217A;
+    color: var(--main-color);
     letter-spacing: 4px;
 }
 
 .sec_8_title1{
     font-size: 50px;
     font-weight: 300;
-    color: #3C217A;
+    color: var(--main-color);
 }
 
 .sec_8_subtitle{
     font-size: 50px;
     font-weight: bold;
-    color: #3C217A;
+    color: var(--impact-color);
 }
 
 .btnArea02 {

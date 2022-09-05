@@ -14,11 +14,16 @@ body {
 }
 
 :root {
-  --main-color: rgb(60, 33, 122);
+  --main-color: rgb(81, 56, 139);
+  --impact-color: rgb(60, 33, 122);
 }
 
 .text_violet {
   color: var(--main-color) !important;
+}
+
+.text_violet_impact {
+  color: var(--impact-color) !important;
 }
 
 .spaceY {
